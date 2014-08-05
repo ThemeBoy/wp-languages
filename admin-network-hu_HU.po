@@ -1,0 +1,1100 @@
+# Translation of Network Admin in Hungarian
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-04-09 05:10:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network.php:474 wp-admin/network.php:510
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "Adjuk a következőt a %2$s elérési úton lévő %1$s fájl tartalmához, ezzel <strong>cseréljük, pótoljuk</strong> a WordPress szabályokat:"
+
+#: wp-admin/network/users.php:48
+msgid "What should be done with content owned by %s?"
+msgstr "Mit szeretnénk tenni %s tartalmaival?"
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:33
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:244
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Fórum</a>"
+
+#: wp-admin/network/sites.php:70
+msgid "Confirm your action"
+msgstr "Művelet jóváhagyása"
+
+#: wp-admin/network/users.php:25
+msgid "Transfer or delete content before deleting users."
+msgstr "Tartalom áthelyezése vagy törlése a felhasználó törlése előtt."
+
+#: wp-admin/network/settings.php:104
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "Ez az email cím szolgál az értesítések érkeztetésére, valamint ugyanezen email címről fognak érkezni a regisztrációs és támogatói email-ek is."
+
+#: wp-admin/network/users.php:234
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "A listában lévő bármelyik felhasználó fölé húzva a mutatót egy szerkesztő hivatkozás jelenik meg. A bal oldali szerkesztő hivatkozás a felhasználó adatlapjának szerkesztéséhez vezet; a jobb oldali bármelyik honlap névnél pedig a honlap szerkesztés oldalára juthatunk. "
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Új felhasználó létrehozásához kattintsunk az <strong>Új felhasználó létrehozása</strong> feliratra."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Új honlap létrehozásához kattintsunk az <strong>Új honlap létrehozása</strong> feliratra."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Egy felhasználó kereséséhez adjuk meg az <strong>email címét, vagy a felhasználói nevét</strong>. Használjuk a dzsóker karaktert ha a felhasználói névnek csak egy részét tudjuk, pl.: &#42;bödönke."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Egy honlap kereséséhez <strong>adjuk meg az elérés utat, vagy a domaint.</strong>"
+
+#: wp-admin/network/upgrade.php:106
+msgid "The database upgrade process may take a little while, so please be patient."
+msgstr "Az adatbázis frissítésének művelete rövidebb-hosszabb időt vehet igénybe, amelyet érdemes türelemmel kivárni."
+
+#: wp-admin/network/settings.php:82
+msgid "Options saved."
+msgstr "Beállítások mentésre kerültek."
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Üdvözlet a Hálózat Adminisztrátorától! Ez a kezelő központ területe, amely minden vonatkozásban saját, több honlapos hálózatunk kezelésére szolgál."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "Itt tudunk:"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "Hozzáadni és kezelni honlapokat vagy felhasználókat"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "Telepíteni és aktiválni sablonokat vagy bővítményeket"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "Hálózatot frissíteni"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "Teljes hálózatot érintő beállítások módosítani"
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "A Right Now widget a hálózatunkban lévő felhasználók és honlapok aktuális számát mutatja."
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "Felhasználó vagy egy honlap kereséséhez használjuk a keresődobozt."
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "Gyors feladatok"
+
+#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:107
+msgid "Upgrade Network"
+msgstr "Hálózat frissítése"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr ""
+"Akkor használjuk ezt a felületet, ha a Frissítések/Elérhető frissítések (a Hálózat adminisztrátora navigációs menüsoron, vagy az Eszköztáron keresztül) részen frissítettük a WordPress-t.\n"
+"Kattintsunk a Hálózat frissítése gombra, amelynek hatására a hálózat minden egyes oldala frissülni fog, egyidejűleg öt oldal, és ellenőrzi, hogy minden adatbázis frissítésre került."
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Hálózatfrissítés dokumentáció</a> (angol)"
+
+#: wp-admin/network/upgrade.php:102
+msgid "Database Upgrade Required"
+msgstr "Adatbázis frissítése szükséges"
+
+#: wp-admin/network/upgrade.php:103
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "A WordPress frissítése megtörtént. Mielőtt nekilátnánk a munkának, frissíteni kell az egyes honlapokat is a hálózaton."
+
+#: wp-admin/network/site-new.php:87
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"%1$s új honlapot hozott létre\n"
+"\n"
+"Címe: %2$s\n"
+"Neve: %3$s"
+
+#: wp-admin/network.php:116
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Illesszük be a szükséges sorokat a wp-config.php (<code>/*... Ennyi volt, kellemes blogolást!...*/</code> sor elé) és a <code>.htaccess</code> (lecserélve az ott lévő WordPress szabályokat) fájlokba."
+
+#: wp-admin/network.php:235 wp-admin/network.php:478 wp-admin/network.php:514
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Az alkönyvtáras hálózatok lehetséges, hogy nem teljesen kompatibilisek az egyedi wp-content könyvtár beállítással."
+
+#: wp-admin/network/settings.php:37
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Hálózat beállításai dokumentáció</a>"
+
+#: wp-admin/network/site-users.php:230
+msgid "Enter the username and email."
+msgstr "Adjuk meg a felhasználói nevet és az email címet"
+
+#: wp-admin/network/site-users.php:218
+msgid "Select a user to change role."
+msgstr "Szerepkör váltáshoz válasszunk ki egy felhasználót"
+
+#: wp-admin/network/site-users.php:224
+msgid "Select a user to remove."
+msgstr "Felhasználó kiválasztása az eltávolításához"
+
+#: wp-admin/network/site-users.php:227
+msgid "User created."
+msgstr "Új felhasználó létrehozva."
+
+#: wp-admin/network/users.php:41
+msgid "Warning! User cannot be deleted. The user %s is a network administrator."
+msgstr "Figyelem! A felhasználót nem lehet törölni, mert %s a hálózat adminisztrátora."
+
+#: wp-admin/network/users.php:66
+msgid "Site: %s"
+msgstr "Honlap: %s"
+
+#: wp-admin/network/site-users.php:278 wp-admin/network/user-new.php:102
+msgid "Add User"
+msgstr "Új felhasználó létrehozása"
+
+#: wp-admin/network/user-new.php:51
+msgid "Cannot add user."
+msgstr "Nem sikerült a felhasználót hozzáadni."
+
+#: wp-admin/network/sites.php:118
+msgid "You are not allowed to delete the site."
+msgstr "Nincs megfelelő jogosultság az oldal törléséhez!"
+
+#: wp-admin/network/site-users.php:209
+msgid "User is already a member of this site."
+msgstr "A felhasználó már tagja ennek a hálózatnak."
+
+#: wp-admin/network/site-info.php:84
+msgid "Site info updated."
+msgstr "Honlap információ frissítve."
+
+#: wp-admin/network/users.php:38
+msgid "Warning! User %s cannot be deleted."
+msgstr "FIGYELEM! %s felhasználót nem lehet törölni."
+
+#: wp-admin/network/site-users.php:212
+msgid "Enter the username of an existing user."
+msgstr "A létező felhasználók közül egy felhasználói nevet kell megadni"
+
+#: wp-admin/network/themes.php:246
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Ameddig egy sablon aktív a főoldalon, addig nem lehetséges a törlése."
+
+#: wp-admin/network/site-new.php:106 wp-admin/network/site-new.php:116
+msgid "Add New Site"
+msgstr "Új honlap hozzáadása"
+
+#: wp-admin/network/themes.php:242
+msgctxt "network"
+msgid "Theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "Sablon törölve."
+msgstr[1] "%s sablon törölve."
+
+#: wp-admin/network/themes.php:214
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Hálózati sablonok dokumentáció</a> (angol)"
+
+#: wp-admin/network/site-info.php:103 wp-admin/network/site-settings.php:94
+#: wp-admin/network/site-themes.php:146 wp-admin/network/site-users.php:191
+msgid "Info"
+msgstr "Információ"
+
+#: wp-admin/network/themes.php:147
+msgid "Are you sure you wish to delete these themes?"
+msgstr "Biztosan törölni akarjuk ezeket a sablonokat?"
+
+#: wp-admin/network/themes.php:156
+msgid "Yes, Delete this theme"
+msgid_plural "Yes, Delete these themes"
+msgstr[0] "Igen, töröljük ezt a sablont"
+msgstr[1] "Igen, töröljük ezeket a sablonokat"
+
+#: wp-admin/network/themes.php:142
+msgid "You are about to remove the following theme:"
+msgid_plural "You are about to remove the following themes:"
+msgstr[0] "A következő sablon eltávolításra lett jelölve:"
+msgstr[1] "A következő sablonok eltávolításra lettek jelölve:"
+
+#: wp-admin/network/themes.php:141
+msgid "This theme may be active on other sites in the network."
+msgid_plural "These themes may be active on other sites in the network."
+msgstr[0] "Lehetséges, hogy ez a sablon a hálózat egy másik honlapján van bekapcsolva."
+msgstr[1] "Lehetséges, hogy ezek a sablonok a hálózat másik honlapjain vannak bekapcsolva."
+
+#: wp-admin/network/themes.php:139
+msgid "Delete Theme"
+msgid_plural "Delete Themes"
+msgstr[0] "Sablon törlése"
+msgstr[1] "Sablonok törlése"
+
+#: wp-admin/network/menu.php:46 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "Hálózat beállításai"
+
+#: wp-admin/network/site-themes.php:168
+msgid "Network enabled themes are not shown on this screen."
+msgstr "A bekapcsolt hálózati sablonok nem láthatóak ezen a képernyőn."
+
+#: wp-admin/network/themes.php:17
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "Nincs megfelelő jogosultság a hálózat sablonjainak kezeléséhez ezen a honlapon."
+
+#: wp-admin/network/menu.php:58
+msgid "Available Updates"
+msgstr "Elérhető frissítések"
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "A felhasználó hozzáadása új felhasználói fiókot hoz létre a hálózaton, és emailben elküldi nekik a felhasználói nevüket és jelszavukat."
+
+#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:79
+#: wp-admin/network/site-themes.php:133 wp-admin/network/site-users.php:161
+msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
+msgstr "Honlap szerkesztése: <a href=\"%1$s\">%2$s</a>"
+
+#: wp-admin/network/themes.php:105
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "Nincs megfelelő jogosultság a sablonok törléséhez ezen a honlapon."
+
+#: wp-admin/network/site-themes.php:163 wp-admin/network/themes.php:239
+msgid "Theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "Sablon kikapcsolva."
+msgstr[1] "%s sablon kikapcsolva."
+
+#: wp-admin/network/site-info.php:39 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:54 wp-admin/network/site-users.php:49
+msgid "Invalid site ID."
+msgstr "Érvénytelen honlap ID."
+
+#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:236
+msgid "Theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "Sablon bekapcsolva."
+msgstr[1] "Sablon bekapcsolva."
+
+#: wp-admin/network/site-themes.php:165 wp-admin/network/themes.php:244
+msgid "No theme selected."
+msgstr "Nincs sablon kiválasztva."
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> - This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>Sablonok</strong> - Ezen a területen azokat a sablonokat láthatjuk amelyek nincsenek a hálózatban engedélyezve. Ha ebben a menüben engedélyezünk egy sablont az elérhetővé válik ezen a honlapon. Ez nem kapcsolja be a sablont, viszont elérhetővé válik a honlap \"Megjelenés\" menüjében. A sablon engedélyezéséhez a teljes hálózaton használjuk a <a href=\"%s\">Hálózati sablonok</a> képernyőt."
+
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:80
+#: wp-admin/network/site-themes.php:134 wp-admin/network/site-users.php:162
+msgid "Edit Site: %s"
+msgstr "%s honlap szerkesztése"
+
+#: wp-admin/network/themes.php:159
+msgid "No, Return me to the theme list"
+msgstr "Nem, a sablon listához akarok visszamenni!"
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>Beállítások</strong> - Ez az oldal a webhellyel kapcsolatos összes beállítást mutatja. Néhányat a WordPress készített, néhányat a saját magunk által aktivált bővítmények hoztak létre. Jegyezzük meg, hogy néhány ki van szürkítve és szabványosított adat felirattal van ellátva. Ezek az értékek nem módosíthatóak, mivel a tárolási mód ezt nem teszi lehetővé."
+
+#: wp-admin/network/site-themes.php:130 wp-admin/network/themes.php:201
+msgctxt "themes per page (screen options)"
+msgid "Themes"
+msgstr "Sablonok"
+
+#: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>Információ</strong> - A domain és az útvonal ritkán szerkesztett értékek, az átállításuk pedig az oldalak helytelen működéséhez vezethet.A regisztráció és az utolsó frissítés dátuma is megjelenik. A hálózati adminisztrátorok archiválhatják a honlapot, spamnek jelölhetik, törölhetik, vagy felnőtteknek valónak minősíthetik, eltávolítva ezzel a nyilvános listázásokból."
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>Felhasználók</strong> - Itt az oldalra regisztrált felhasználókat láthatjuk és megváltoztathatjuk a jogosultságukat, visszaállíthatjuk a jelszavukat illetve törölhetjük őket az oldalról. Az oldalról való eltávolítással, az adott felhasználót nem töröljük a hálózatból."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "A menü egy adott honlap adatainak szerkesztésére szolgál, például ha az oldal admin felülete elérhetetlen."
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Vezérlőpult hivatkozás az adott honlap vezérlőpultjára irányít."
+
+#: wp-admin/network/settings.php:145
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "Engedélyezi a honlap adminisztrátoroknak egy új felhasználó hozzáadását a \"Felhasználók-->Új hozzáadása\" oldalukon keresztül."
+
+#: wp-admin/network/settings.php:281
+msgid "Language Settings"
+msgstr "Nyelv beállításai"
+
+#: wp-admin/network/site-settings.php:75
+msgid "Site options updated."
+msgstr "Honlap opciók frissítve."
+
+#: wp-admin/network/menu.php:31
+msgid "Installed Themes"
+msgstr "Telepített sablonok"
+
+#: wp-admin/network/menu.php:27
+msgid "Themes %s"
+msgstr "Sablonok %s"
+
+#: wp-admin/network/site-info.php:32 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screens\" target=\"_blank\">Honlap kezelése dokumentáció</a> (angol)"
+
+#: wp-admin/network/menu.php:18 wp-admin/network/sites.php:254
+msgctxt "site"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: wp-admin/network/menu.php:17
+msgid "All Sites"
+msgstr "Valamennyi honlap"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">A Hálózat kezelő dokumentációja</a> (angol)"
+
+#: wp-admin/network/site-themes.php:17
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "Nincs megfelelő jogosultság a sablonok kezeléséhez ezen a honlapon."
+
+#: wp-admin/network/site-new.php:103
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Honlap hozzáadva. <a href=\"%1$s\">Vezérlőpult</a> | <a href=\"%2$s\">Szerkesztés</a>"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Az &#8220;Új hozzáadása&#8221; az új honlap hozzáadása oldalra visz. Ahol a webhelyek között kereshetünk név, azonosító szám vagy IP cím alapján. A képernyő beállítások fülön lehetőség van kiválasztani, hogy hány holnap jelenjen meg egy oldalon."
+
+#: wp-admin/network/user-new.php:17
+msgid "You do not have sufficient permissions to add users to this network."
+msgstr "Nincs megfelelő jogosultság felhasználó hozzáadásához ezen a hálózaton."
+
+#: wp-admin/network/sites.php:25
+msgctxt "sites per page (screen options)"
+msgid "Sites"
+msgstr "Honlapok"
+
+#: wp-admin/network/sites.php:206
+msgid "You do not have permission to delete that site."
+msgstr "Nincs jogosultság a honlap törléséhez."
+
+#: wp-admin/network/site-new.php:17
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "Nincs megfelelő jogosultság honlapok hozzáadásához ezen a hálózaton."
+
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:228
+msgctxt "theme"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:243
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Hálózati felhasználók dokumentáció</a> (angol)"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "A félkövér fejléc feliratokra kattintással a tábla tartalma újra rendezhető."
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Törlés, ami egy visszavonhatatlan művelet, a jóváhagyási lépések után."
+
+#: wp-admin/network/themes.php:209
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "A sablonokat honlaponként engedélyezheti a hálózat adminisztrátora a Szerkesztés képernyőn (amelynek van Sablonok füle), ahová a Honlapok képernyőn lévő Szerkesztés hivatkozáson keresztül juthatunk. Csak a hálózat adminisztrátorok tudnak sablonokat telepíteni és szerkeszteni."
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Egy Szerkesztés hivatkozás egy külön Honlap szerkesztése képernyőhöz."
+
+#: wp-admin/network/site-new.php:23
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "Ez a képernyő fő adminoknak teszi lehetővé új honlapok hozzáadását a hálózathoz. Ezt nem befolyásolják a regisztrációs beállítások."
+
+#: wp-admin/network/menu.php:53
+msgid "Updates"
+msgstr "Frissítések"
+
+#: wp-admin/network/settings.php:32
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Fő adminokat a Beállítások képernyőn a továbbiakban nem lehet hozzáadni. Mostantól ez a felhasználók listájából érhető el a Hálózati Admin > Felhasználók és a felhasználó nevére kattintással, vagy a Szerkesztés hivatkozással. Ezzel a felhasználó szerkesztő oldalra jutunk, ahol be kell jelölni az ajánlatok közül a megadni kívánt jogokat."
+
+#: wp-admin/network.php:227
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "valahogyan így: <code>%1$s/site1</code> és <code>%1$s/site2</code>"
+
+#: wp-admin/network.php:240 wp-admin/network.php:244 wp-admin/network.php:284
+msgid "Server Address"
+msgstr "Szerver cím"
+
+#: wp-admin/network.php:258
+msgid "Because you are using <code>localhost</code>, the sites in your WordPress network must use sub-directories. Consider using <code>localhost.localdomain</code> if you wish to use sub-domains."
+msgstr "Mivel <code>localhost</code>-ot használunk, ezért a WordPress hálózatunk honlapjai alkönyvtár szerkezetbe kerülnek. Fontoljuk meg a <code>localhost.localdomain</code> formát az aldomainek használata érdekében."
+
+#: wp-admin/network.php:261 wp-admin/network.php:271 wp-admin/network.php:278
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "Amennyiben a főoldal alkönyvtáras szerkezettel került beállításra, módosítanunk kell a közvetlen hivatkozások szerkezetet, mert lehetséges, hogy a korábbi hivatkozások összekeverednek miatta."
+
+#: wp-admin/network.php:268
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "Mivel a telepítés egy könyvtárban van, a WordPress hálózat oldalait alkönyvtárakban kell használni."
+
+#: wp-admin/network.php:276
+msgid "Sub-domain Install"
+msgstr "Al-domain telepítése"
+
+#: wp-admin/network.php:277
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "Mivel nem egy új telepítésről van szó a WordPress hálózat oldalait al-domainekben kell használni."
+
+#: wp-admin/network/settings.php:93 wp-admin/network.php:291
+msgid "Network Title"
+msgstr "Hálózat neve"
+
+#: wp-admin/network.php:295
+msgid "What would you like to call your network?"
+msgstr "Mi legyen a neve a hálózatnak?"
+
+#: wp-admin/network.php:304
+msgid "Your email address."
+msgstr "email cím"
+
+#: wp-admin/network.php:351
+msgid "The original configuration steps are shown here for reference."
+msgstr "Az eredeti konfigurációs lépéseket hivatkozásként felsoroljuk."
+
+#: wp-admin/network.php:356
+msgid "An existing WordPress network was detected."
+msgstr "Egy létező WordPress hálózatot találtunk."
+
+#: wp-admin/network.php:357
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "A konfigurációs lépések befejezéseként az új hálózat létrehozásához a hálózat adatbázis táblákat ki kell üríteni, vagy eltávolítani."
+
+#: wp-admin/network.php:368
+msgid "Enabling the Network"
+msgstr "A Hálózat bekapcsolása..."
+
+#: wp-admin/network.php:369
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "A következő lépések szükségesek a hálózati lehetőség engedélyezéséhez."
+
+#: wp-admin/network.php:372 wp-admin/network.php:374
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files."
+msgstr "<strong>Figyelmeztetés:</strong> Nagyon ajánljuk a <code>wp-config.php</code> és a <code>%s</code> fájlok biztonsági mentését a művelet megkezdése előtt!"
+
+#: wp-admin/network.php:376
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file."
+msgstr "<strong>Figyelmeztetés:</strong> Nagyon ajánljuk a <code>wp-config.php</code> és a <code>.htaccess</code> fájlok biztonsági mentését a művelet megkezdése előtt!"
+
+#: wp-admin/network.php:382
+msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "Adjuk hozzá a következő kódot a <code>wp-config.php</code> fájlhoz <code>%s</code>  az <code>/* Ennyi volt, kellemes blogolást! */</code> sor <strong>fölé</strong>:"
+
+#: wp-admin/network.php:196
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "Az alul lévő információs táblázat teljes kitöltésével létrehozható egy WordPress-honlapok hálózata - a Hálózat. A konfigurációs fájlokat a következő lépésben fogjuk létrehozni."
+
+#: wp-admin/network.php:208
+msgid "Note:"
+msgstr "Figyelmeztetés:"
+
+#: wp-admin/network.php:208
+msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
+msgstr "Meg kell bizonyosodni róla, hogy az Apache <code>mod_rewrite</code> telepítve van-e, mert a telepítés befejezését követően szükég lesz rá."
+
+#: wp-admin/network.php:413
+msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
+msgid_plural "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
+msgstr[0] "A <code>wp-config.php</code> fájlból hiányzik ez az egyedi ellenőrző kulcs."
+msgstr[1] "A <code>wp-config.php</code> fájlból hiányoznak ezek az egyedi ellenőrző kulcsok."
+
+#: wp-admin/network.php:171
+msgid "You cannot install a network of sites with your server address."
+msgstr "A honlapok hálózata nem telepíthető ezzel a szerver címmel."
+
+#: wp-admin/network.php:172
+msgid "You cannot use port numbers such as <code>%s</code>."
+msgstr "Nem használható portszámok: <code>%s</code>."
+
+#: wp-admin/network.php:218
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "Szükség lesz egy joker DNS rekordra (*.*), amennyiben a virtuális hoszt szolgáltatásokat (sub-domain) kívánjuk használni."
+
+#: wp-admin/network.php:212
+msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
+msgstr "Amennyiben a <code>mod_rewrite</code> modul ki van kapcsolva,  meg kell kérni a tárhely-szolgáltató adminisztrátorát a bekapcsolására, vagy átnézni az <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache dokumentáció</a>ját vagy <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">más helyen</a> kell segítséget keresni a beállításhoz."
+
+#: wp-admin/network.php:192
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "%s honlap"
+
+#: wp-admin/network.php:246 wp-admin/network.php:286
+msgid "The internet address of your network will be <code>%s</code>."
+msgstr "A hálózat internet címe ez lesz: <code>%s</code>"
+
+#: wp-admin/network.php:210 wp-admin/network.php:235 wp-admin/network.php:261
+#: wp-admin/network.php:271
+msgid "Warning!"
+msgstr "Figyelem!"
+
+#: wp-admin/network.php:222
+msgid "Sub-domains"
+msgstr "Al-domainek"
+
+#: wp-admin/network.php:413
+msgid "To make your installation more secure, you should also add:"
+msgstr "A telepítés biztonságának fokozására az allábbiakat tehetjük:"
+
+#: wp-admin/network.php:114
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "Aldomain- vagy alkönyvtár-rendszer választása; csak a telepítés újrakonfigurálása után lehet bekapcsolni. A hálózati adatok kitöltését követően egy kattintás a telepítés. Amennyiben nem működik, lehetséges, hogy a DNS rekordhoz hozzá kell adni a joker karaktert (wildcard) az aldomain-rendszer használatához, vagy a Közvetlen hivatkozások beállításait kell másikra cserélni az alkönyvtár-rendszer használatához."
+
+#: wp-admin/network.php:115
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "A következőn képernyőn egyedileg generált kódsorokat fogunk kapni a wp-config.php és a .htaccess fájlokhoz. Bizonyosodjunk meg arról, hogy az FTP kliensünk beállításai megengedik a ponttal kezdődő fájlok megjelenítését, hogy látható legyen a .htaccess; lehetséges, hogy létre kell hoznunk a fájlt, ha ez tényleg nincs ott. Készítsünk biztonsági másolatot a két fájlról."
+
+#: wp-admin/network.php:523
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Ezzel a befejező lépéssel a Hálózat bekapcsolásra és konfigurálásra került. Ismét be kell lépni a honlap admin felületére."
+
+#: wp-admin/network.php:154
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "A DO_NOT_UPGRADE_GLOBAL_TABLES állandót nem lehetséges definiálni, amennyiben egy Hálózat létrehozása történik."
+
+#: wp-admin/network.php:252
+msgid "Network Details"
+msgstr "Hálózat részletei"
+
+#: wp-admin/network.php:195
+msgid "Welcome to the Network installation process!"
+msgstr "Üdvözlet a Hálózat telepítő folyamatában!"
+
+#: wp-admin/network.php:210
+msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
+msgstr "Úgy tűnik, hogy a <code>mod_rewrite</code> modul nincs telepítve a szerveren."
+
+#: wp-admin/network.php:120 wp-admin/network.php:131
+msgid "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Hálózat létrehozása dokumentáció</a> (angol)"
+
+#: wp-admin/network.php:118
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Az alkönyvtár választási lehetőség kikapcsolásra kerül, ha a telepítés egy hónapnál régebbi, mivel közvetlen hivatkozás problémák lehetnek a &#8220;/blog/&#8221; címmel kapcsolatban a főoldalon. Ezzel a kikapcsolással a későbbi verziókban még fogunk foglalkozni."
+
+#: wp-admin/network.php:162
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "A hálózat létrehozását követően a bővítmények újra bekapcsolhatóak."
+
+#: wp-admin/network.php:162
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "A Hálózat bekapcsolása előtt <a href=\"%s\">a bővítményeket ki kell kapcsolni</a>!"
+
+#: wp-admin/network.php:241
+msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the <code>www</code> prefix with an address like <code>%2$s</code> but any links will not have the <code>www</code> prefix."
+msgstr "Javasoljuk, hogy az oldal címét változtassuk meg <code>%1$s</code> címre, mielőtt bekapcsolnánk a hálózat funkciót. Így, a továbbiakban is elérhető marad az oldal a <code>www</code> előtag használatával, ezen a címen: <code>%2$s</code>. A hivatkozások nem fogják megkapni a <code>www</code> előtagot."
+
+#: wp-admin/network.php:256 wp-admin/network.php:266
+msgid "Sub-directory Install"
+msgstr "Alkönyvtár telepítés"
+
+#: wp-admin/network.php:113
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "Ezen a képernyőbeállításon van lehetőség beállítani egy hálózatot aldomain (<code>oldal1.pelda.hu</code>), vagy alkönyvtár (<code>pelda.hu/oldal1</code>) szerkezethez. Az aldomain szerkezethez szükség van a subdomain wildcard bekapcsolására az Apache kiszolgálón és a DNS rekordban, ha a szolgáltató engedélyezte annak használatát."
+
+#: wp-admin/network.php:109
+msgid "Create a Network of WordPress Sites"
+msgstr "WordPress honlapok hálózatának létrehozása"
+
+#: wp-admin/network.php:173
+msgid "Return to Dashboard"
+msgstr "Vissza a Vezérlőpulthoz"
+
+#: wp-admin/network.php:27
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "A Hálózat létrehozása panel nem a WordPress MU hálózatoké."
+
+#: wp-admin/network.php:162 wp-admin/network.php:356 wp-admin/network.php:478
+#: wp-admin/network.php:514
+msgid "Warning:"
+msgstr "Figyelem:"
+
+#: wp-admin/network.php:217
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
+msgstr "Ki kell választani, hogy a telepítést követően az új oldalak aldomaines, vagy alkönyvtáras formában lesznek-e használva. <strong>A későbbiekben ez nem módosítható!</strong>"
+
+#: wp-admin/network.php:121 wp-admin/network.php:132
+msgid "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Hálózat képernyője dokumentáció</a>"
+
+#: wp-admin/network.php:216
+msgid "Addresses of Sites in your Network"
+msgstr "A honlapok címei a Hálózatban"
+
+#: wp-admin/network.php:223
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "valahogyan így: <code>site1.%1$s</code> és <code>site2.%1$s</code>"
+
+#: wp-admin/network.php:125
+msgid "Network"
+msgstr "Hálózat"
+
+#: wp-admin/network.php:226
+msgid "Sub-directories"
+msgstr "Alkönyvtárak"
+
+#: wp-admin/network.php:103
+msgid "You must define the <code>WP_ALLOW_MULTISITE</code> constant as true in your wp-config.php file to allow creation of a Network."
+msgstr "A <code>WP_ALLOW_MULTISITE</code> konstanst true értékkel kell definiálni a wp-config.php fájlban a Hálózat létrehozásának engedélyezéséhez."
+
+#: wp-admin/network.php:185
+msgid "ERROR: The network could not be created."
+msgstr "HIBA: A hálózatot nem tudtuk létrehozni"
+
+#: wp-admin/network.php:117
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Ahogy hozzáadtuk ezt a kódot, a MultiSite már engedélyezve is van, frissíthetünk a böngészőnkben. Ez a képernyő - most már a Hálózat-kezelő menüben - megőrzi a hálózati beállítások kódját. Válthatunk a Honlap-kezelő és a Hálózat-kezelő nézet között a jobb felső menüből, vagy a honlap nevére kattintással a Honlapjaim legördülő menüből az Eszköztárból."
+
+#: wp-admin/network/site-info.php:17 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "Nincs megfelelő jogosultság ezen honlap szerkesztéséhez."
+
+#: wp-admin/network/users.php:143
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Figyelem! A felhasználó nem módosítható. %s egy hálózat-adminisztrátor."
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Amennyiben az új oldal számára nem létezik az admin email az adatbázisban,  egy új felhasználó is létre fog jönni."
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Kikapcsolás, Archiválás, és Spamnek nyilvánítás melyek után megerősítés kell. Ezeket a műveleteket később is el lehet végezni."
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "A honlap ID belső használatra szolgál, és nem látható a honlap felhasználói felületén, vagy a felhasználók / látogatók számára."
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Ha a honlap fölé visszük az egeret megjelenik hét lehetőség (az elsődleges oldalnál csak három):"
+
+#: wp-admin/network/settings.php:27
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Működési beállításokban találhatók a hálózat nevével és az admin email címével kapcsolatos mezők."
+
+#: wp-admin/network/users.php:235
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Egy kattintás az egyén felhasználói nevére, és a felhasználó adatlapjára léphetünk. "
+
+#: wp-admin/network/users.php:237
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "A csoportos művelet véglegesen törölni fogja a kijelölt felhasználókat, vagy megjelöli / megjelölést megszüntet, mint spamelőket. A spamelő felhasználók bejegyzései eltávolításra kerülnek és nem tudnak ismételten bejelentkezni a használt email címükkel. "
+
+#: wp-admin/network/settings.php:30
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "A feltöltési beállítással meghatározható a feltölthető fájlok mérete és a holnapok által felhasználható tárterületet. Az alap érték holnaponként változtatható, amikor az adott lapot szerkesztjük. A megengedett fájltipusok listája is itt található (szóközzel kell elválasztani)."
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the frontend site live."
+msgstr "A \"Megnéz\" lehetőséggel ellátogathatunk az élő oldalra."
+
+#: wp-admin/network/settings.php:29
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "Az új honlap beállítások alapértelmezett értékeket tartalmaznak a hálózaton regisztrálandó új honlapok számára. Ez tartalmazza az üdvözlő levél szövegeket, új felhasználói fiók vagy honlap létrehozásakor, az első bejegyzés tartalmát, az első oldalt, az első hozzászólást, a hozzászólás szerzőjét, és a szerző hivatkozását."
+
+#: wp-admin/network/themes.php:207
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "Ezen a képernyőn engedélyezni vagy tiltani lehet a Megjelenés menübe kerülő sablonokat a holnapokhoz. De a már használatban lévő sablonokat nem lehet ezzel az eszközzel kikapcsolni."
+
+#: wp-admin/network/themes.php:208
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Ha a hálózat adminisztrátora letilt egy sablont, ami éppen használatban van, a téma továbbra is használatban marad. Amennyiben másikat választunk Sablonok > Megjelenés lapon már nem lehet visszatérni a régire."
+
+#: wp-admin/network/settings.php:26
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "Ez a képernyőbeállítás beállítja és változtatja az egész hálózat beállításait. Az első honlap a hálózat fő honlapja és a hálózati beállítások össze vannak kötve az eredeti honlap beállításokkal-"
+
+#: wp-admin/network/settings.php:28
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "A regisztrációs beállítások ki- és bekapcsolhatóak. Amennyiben a honlapon más bejelentkezés (is) engedélyezett, érdemes egy spam-szűrő bővítményt telepíteni. Szóközzel - nem vesszővel - lehet a hálózatból kitiltott neveket elválasztani."
+
+#: wp-admin/network/settings.php:31
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "A menü beállítással engedélyezhető/letiltható a Bővítmények menü megjelenítése nem szuper adminok számára. Vagyis csak a szuper adminok láthassák, még a hálózat adminisztrátorai sem."
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "Ez a főtábla tartalmazza a hálózat valamennyi honlapját. A lista- és összefoglaló nézet között váltani a táblázat jobb felső részén található ikonnal lehetséges."
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Azok a felhasználók, akik feliratkoznak a hálózatunkra az elsődleges oldal feliratkozói lesznek, vagy az elsődleges vezérlőpult oldal feliratkozói, ahol kapnak egy profil oldalt, hogy kezeljék a fiókjukat. Ezek a felhasználók akkortól láthatják a Vezérlőpultot és a Honlapjaim menüt, amikor új honlapot hoznak létre."
+
+#: wp-admin/network/users.php:236
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr " A vastagon szedett fejlécre történő kattintással a táblázat rendezhető és a lista és összesítő nézet között lehet váltani a jobb felső részen található ikon használatával."
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Amennyiben ez a művelet valamilyen okból nem hajtódik végre, a felhasználók honlapjukra történő belépéskor fog a frissítés  kikényszerítésre kerülni."
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Amennyiben egy verziófrissítés nem történt meg, erre a gombra történő kattintás nem befolyásol semmit."
+
+#: wp-admin/network/users.php:233
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Ez a táblázat a hálózat valamennyi felhasználóját mutatja és a honlapokat, amelyekhez kapcsolódtak. "
+
+#: wp-admin/network/users.php:238
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Egy már létező felhasználót felruházhatunk szuper adminsztrátori jogokkal, úgy, hogy a Felhasználó szerkesztése oldalon bejelöljük a megfelelő négyzetet, a különleges felhasználói szerepkörhöz."
+
+#: wp-admin/network/site-new.php:49
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "A következő szavak WordPress funkcióknak vannak fenntartva, és nem lehetnek blog nevek: <code>%s</code>"
+
+#: wp-admin/network/upgrade.php:69
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
+msgstr "Figyelem! Probléma a %1$s frissítésekor. A szerver nem képes kapcsolódni az oldalhoz, és futtatni azt. Hibaüzenet: <em>%2$s</em>"
+
+#: wp-admin/network/settings.php:167
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Amennyiben a honlap regisztrációkat meghatározott domainekre kívánjuk korlátozni. Soronként egy domain."
+
+#: wp-admin/network/settings.php:178
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Amennyiben meghatározott domain végződéseket ki kívánunk tiltani a honlap regisztrációból. Soronként egy domain."
+
+#: wp-admin/network/settings.php:125
+msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Amennyiben a regisztráció ki van kapcsolva, be kell állítani a <code>NOBLOGREDIRECT</code>értéket a <code>wp-config.php</code> fájlban, hogy olyan címre a irányítsuk a felhasználókat, hogy nehogy egy nem létező honlapra tévedjenek."
+
+#: wp-admin/network/site-new.php:37
+msgid "Can&#8217;t create an empty site."
+msgstr "Üres honlap nem hozható létre."
+
+#: wp-admin/network/upgrade.php:88
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Amennyiben a böngésző nem kezdi el tölteni a következő oldalt automatikusan, akkor kattintás erre a hivatkozásra:"
+
+#: wp-admin/network/sites.php:224
+msgid "Site marked as spam."
+msgstr "A honlap spamként van jelölve"
+
+#: wp-admin/network/sites.php:197
+msgid "Sites marked as spam."
+msgstr "Honlapok spamként jelölve"
+
+#: wp-admin/network/sites.php:194
+msgid "Sites removed from spam."
+msgstr "A honlap spamként történő jelölése visszavonva."
+
+#: wp-admin/network/users.php:261
+msgid "Users removed from spam."
+msgstr "Spam felhasználói jelölés visszavonása."
+
+#: wp-admin/network/sites.php:221
+msgid "Site removed from spam."
+msgstr "A honlap spam-jelölése eltávolítva."
+
+#: wp-admin/network/sites.php:200
+msgid "Sites deleted."
+msgstr "Honlapok törölve"
+
+#: wp-admin/network/sites.php:203
+msgid "Site deleted."
+msgstr "Honlap törölve!"
+
+#: wp-admin/network/users.php:258
+msgid "Users marked as spam."
+msgstr "Felhasználók megjelölése spammerként!"
+
+#: wp-admin/network/site-info.php:142
+msgid "Update <code>siteurl</code> and <code>home</code> as well."
+msgstr "<code>siteurl</code> és <code>home</code> frissítése"
+
+#: wp-admin/network/sites.php:218
+msgid "Site deactivated."
+msgstr "Honlap kikapcsolva"
+
+#: wp-admin/network/sites.php:215
+msgid "Site activated."
+msgstr "Honlap bekapcsolva"
+
+#: wp-admin/network/sites.php:212
+msgid "Site unarchived."
+msgstr "A honlap nem lett archíválva."
+
+#: wp-admin/network/users.php:264
+msgid "Users deleted."
+msgstr "Felhasználók törölve"
+
+#: wp-admin/network/sites.php:209
+msgid "Site archived."
+msgstr "Honlap archiválva."
+
+#: wp-admin/network/site-new.php:60
+msgid "Invalid email address."
+msgstr "Hibás email cím."
+
+#: wp-admin/network/site-new.php:76
+msgid "There was an error creating the user."
+msgstr "Hiba történt a felhasználó létrehozása közben"
+
+#: wp-admin/network/sites.php:64 wp-admin/network/sites.php:131
+msgid "You are not allowed to change the current site."
+msgstr "Nem engedélyezett ezen oldal módosítása."
+
+#: wp-admin/network/settings.php:272
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/settings.php:266
+msgid "Upload file types"
+msgstr "Feltölthető fájl típusok"
+
+#: wp-admin/network/settings.php:261
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "%s MB a fájlok teljes feltöltési mérethatára"
+
+#: wp-admin/network/settings.php:242
+msgid "The author of the first comment on a new site."
+msgstr "Első hozzászólás szerzője egy új honlapon."
+
+#: wp-admin/network/settings.php:213
+msgid "The first post on a new site."
+msgstr "Első bejegyzés az új honlapon."
+
+#: wp-admin/network/settings.php:223
+msgid "The first page on a new site."
+msgstr "Első oldal egy új honlapon."
+
+#: wp-admin/network/settings.php:233
+msgid "The first comment on a new site."
+msgstr "Első hozzászólás egy új honlapon."
+
+#: wp-admin/network/settings.php:251
+msgid "The URL for the first comment on a new site."
+msgstr "Első hozzászólás URL egy új honlapon."
+
+#: wp-admin/network/upgrade.php:57
+msgid "All done!"
+msgstr "Minden elkészült!"
+
+#: wp-admin/network/settings.php:121
+msgid "Logged in users may register new sites."
+msgstr "Csak belépett felhasználók hozhatnak létre új honlapokat."
+
+#: wp-admin/network/settings.php:122
+msgid "Both sites and user accounts can be registered."
+msgstr "Honlapokat és felhasználói fiókokat is létre lehet hozni."
+
+#: wp-admin/network/settings.php:120
+msgid "User accounts may be registered."
+msgstr "Felhasználói fiókokat lehet létrehozni."
+
+#: wp-admin/network/settings.php:119
+msgid "Registration is disabled."
+msgstr "Regisztráció letiltva."
+
+#: wp-admin/network/settings.php:299
+msgid "Enable administration menus"
+msgstr "Adminisztrációs menü bekapcsolása"
+
+#: wp-admin/network/settings.php:90
+msgid "Operational Settings"
+msgstr "Műveletek beállításai"
+
+#: wp-admin/network/settings.php:256
+msgid "Upload Settings"
+msgstr "Beállítások feltöltése"
+
+#: wp-admin/network/settings.php:184
+msgid "New Site Settings"
+msgstr "Új honlap beállítások"
+
+#: wp-admin/network/settings.php:109
+msgid "Registration Settings"
+msgstr "Regisztráció beállításai"
+
+#: wp-admin/network/site-new.php:56
+msgid "Missing or invalid site address."
+msgstr "Hibás, vagy nem szabványos honlap cím"
+
+#: wp-admin/network/site-new.php:58
+msgid "Missing email address."
+msgstr "Hibás email cím"
+
+#: wp-admin/network/settings.php:100 wp-admin/network.php:300
+msgid "Network Admin Email"
+msgstr "Hálózat admin email címe"
+
+#: wp-admin/network/site-new.php:91
+msgid "[%s] New Site Created"
+msgstr "[%s] Új honlap került létrehozásra"
+
+#: wp-admin/network/settings.php:193
+msgid "The welcome email sent to new site owners."
+msgstr "Az üdvözlő email elküldve az új honlap tulajdonosának."
+
+#: wp-admin/network/settings.php:259
+msgid "Site upload space"
+msgstr "Honlap feltöltési mérete"
+
+#: wp-admin/network/settings.php:138
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "Email küldése a hálózati adminnak, amikor egy új honlapot, vagy felhasználói fiókot regisztrálnak"
+
+#: wp-admin/network/settings.php:154
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "A felhasználók részére tiltott ezekkel a nevekkel honlapot regisztrálni. A neveket <strong>szóközzel kell elválasztani</strong>."
+
+#: wp-admin/network/upgrade.php:88
+msgid "Next Sites"
+msgstr "Következő honlap"
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:17
+#: wp-admin/network/site-info.php:43 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:53
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:100
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:36
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:94
+#: wp-admin/network/users.php:116 wp-admin/network/users.php:129
+#: wp-admin/network/users.php:180
+msgid "You do not have permission to access this page."
+msgstr "Nincs megfelelő jogosultság csatlakozni ehhez az oldalhoz."
+
+#: wp-admin/network/sites.php:77
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#: wp-admin/network/user-new.php:39
+msgid "Cannot create an empty user."
+msgstr "Nem sikerült felhasználót létrehozni"
+
+#: wp-admin/network/site-users.php:233
+msgid "Duplicated username or email address."
+msgstr "A felhasználó vagy az email cím már szerepel az adatbázisban."
+
+#: wp-admin/network/settings.php:112
+msgid "Allow new registrations"
+msgstr "Új regisztrációk engedélyezése"
+
+#: wp-admin/network/settings.php:132
+msgid "Registration notification"
+msgstr "Regisztrációs értesítő"
+
+#: wp-admin/network/settings.php:143
+msgid "Add New Users"
+msgstr "Új felhasználó hozzáadása"
+
+#: wp-admin/network/settings.php:150
+msgid "Banned Names"
+msgstr "Tiltott nevek:"
+
+#: wp-admin/network/settings.php:160
+msgid "Limited Email Registrations"
+msgstr "Korlátozott email regisztráció:"
+
+#: wp-admin/network/settings.php:173
+msgid "Banned Email Domains"
+msgstr "Tiltott email domainek:"
+
+#: wp-admin/network/settings.php:188
+msgid "Welcome Email"
+msgstr "Üdvözlő email:"
+
+#: wp-admin/network/settings.php:198
+msgid "Welcome User Email"
+msgstr "Felhasználót köszöntő email"
+
+#: wp-admin/network/settings.php:203
+msgid "The welcome email sent to new users."
+msgstr "A felhasználót köszöntő email elküldve az új felhasználónak."
+
+#: wp-admin/network/settings.php:218
+msgid "First Page"
+msgstr "Első oldal"
+
+#: wp-admin/network/settings.php:228
+msgid "First Comment"
+msgstr "Első hozzászólás"
+
+#: wp-admin/network/settings.php:238
+msgid "First Comment Author"
+msgstr "Első hozzászólás szerzője"
+
+#: wp-admin/network/settings.php:247
+msgid "First Comment URL"
+msgstr "Első hozzászólás URL"
+
+#: wp-admin/network/settings.php:271
+msgid "Max upload file size"
+msgstr "Maximális feltölthető fájl méret"
+
+#: wp-admin/network/settings.php:284
+msgid "Default Language"
+msgstr "Alapértelmezett nyelv"
+
+#: wp-admin/network/site-new.php:149
+msgid "Add Site"
+msgstr "Honlap hozzáadása"
+
+#: wp-admin/network/site-new.php:126
+msgid "Site Address"
+msgstr "Honlap címe"
+
+#: wp-admin/network/site-new.php:142
+msgid "Admin Email"
+msgstr "Adminisztrátor email"
+
+#: wp-admin/network/site-new.php:146
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Új felhasználó jön létre, ha a fenti email cím nincs az adatbázisban."
+
+#: wp-admin/network/site-new.php:146
+msgid "The username and password will be mailed to this email address."
+msgstr "A felhasználó nevet és a jelszót a megadott email címre küldjük."
+
+#: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:98
+msgid "Username and password will be mailed to the above email address."
+msgstr "A felhasználó nevet és a jelszót a fent megadott email címre küldjük."

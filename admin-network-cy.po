@@ -1,0 +1,1114 @@
+# Translation of Network Admin in Welsh
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-04-06 11:50:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network.php:474 wp-admin/network.php:510
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "Ychwanegu'r canlynol i'ch ffeil %1$s yn %2$s, <strong>amnewid</strong> rheolau eraill WordPress:"
+
+#: wp-admin/network/users.php:48
+msgid "What should be done with content owned by %s?"
+msgstr "Beth ddylid ei wneud gyda cynnwys sy'n perthyn i %s?"
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:33
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:244
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+
+#: wp-admin/network/sites.php:70
+msgid "Confirm your action"
+msgstr "Cadarnhau eich gweithred"
+
+#: wp-admin/network/users.php:25
+msgid "Transfer or delete content before deleting users."
+msgstr "Trosglwyddo neu ddileu cynnwys cyn dileu defnyddwyr."
+
+#: wp-admin/network/settings.php:104
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "Bydd y cyfeiriad e-bost yma'n derbyn hysbysiadau. Bydd e-byst cofrestru a chefnogaeth hefyd yn dod o'r cyfeiriad hwn."
+
+#: wp-admin/network/users.php:234
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Drwy hofran dros unrhyw ddefnyddiwr yn y rhestr mae modd gwneud i ddolenni golygu ymddangos. Bydd y ddolen Golygu ar y chwith yn eich cymryd i'w tudalen proffil Golygu Defnyddiwr; bydd y ddolen golygu ar y chwith wrth ochr unrhyw enw gwefan yn mynd i sgrin Golygu Gwefan unrhyw wefan."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "I ychwanegu defnyddiwr newydd, <strong>cliciwch Creu Defnyddiwr Newydd</strong>."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "I ychwanegu gwefan newydd, <strong>cliciwch Creu Gwefan Newydd</strong>."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "I chwilio am ddefnyddiwr, <strong>rhowch gyfeiriad e-bost neu enw defnyddiwr</strong>. Defnyddiwch gerdyn gwyllt i chwilio am enw defnyddiwr rhannol, fel defnyddiwr&#42;."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "I chwilio am wefan, <strong>rhowch lwybr neu enw parth</strong>."
+
+#: wp-admin/network/upgrade.php:106
+msgid "The database upgrade process may take a little while, so please be patient."
+msgstr "Gall diweddaru'r gronfa ddata gymryd peth amser, byddwch yn amyneddgar :-) ."
+
+#: wp-admin/network/settings.php:82
+msgid "Options saved."
+msgstr "Dewisiadau cadwyd."
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Croeso i'ch Gweinyddiaeth Rhwydwaith. Mae'r adran hon o'r Sgriniau Gweinyddol yn cael ei ddefnyddio ar gyfer pob agwedd o'ch Rhwydwaith Aml-wefan."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "Yma gallwch:"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "Ychwanegu neu reoli gwefannau neu ddefnyddwyr"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "Gosod a gweithredu themâu neu ategion"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "Diweddaru eich rhwydwaith"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "Newid gosodiadau eang y rhwydwaith"
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Mae'r teclyn Nawr ar y sgrin hon yn darparu cyfrif cyfredol o ddefnyddwyr a gwefannau ar ich rhwydwaith."
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "I chwilio am ddefnyddiwr neu wefan, defnyddiwch y blychau chwilio."
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "Tasgau Cyflym"
+
+#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:107
+msgid "Upgrade Network"
+msgstr "Diweddaru'r Rhwydwaith"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Defnyddiwch y sgrin yma dim ond ar ôl diweddaru i fersiwn newydd o WordPress drwy Ddiweddariadau/Diweddariadau ar Gael (drwy ddewislen symud Gweinyddu Rhwydwaith neu'r Bar Offer). Bydd clicio botwm Diweddaru Rhwydwaith yn eich camu drwy bob gwefan ar y rhwydwaith, pump ar y tro a gwneud yn siŵr fod unrhyw ddiweddariadau i gronfeydd data'n cael eu gosod."
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Dogfennaeth ar Ddiweddaru Rhwydwaith</a>"
+
+#: wp-admin/network/upgrade.php:102
+msgid "Database Upgrade Required"
+msgstr "Mae Angen Diweddariad Cronfa Ddata"
+
+#: wp-admin/network/upgrade.php:103
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "Mae WordPress wedi ei ddiweddaru. Cyn mynd ymhellach rhaid diweddaru pob gwefan ar eich rhwydwaith yn unigol."
+
+#: wp-admin/network/site-new.php:87
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"Gwefan newydd wedi ei chreu gan %1$s\n"
+"\n"
+"Cyfeiriad: %2$s\n"
+"Enw: %3$s"
+
+#: wp-admin/network.php:116
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Ychwanegwch y llinellau penodol o god i wp-config.php (cyn <code>/*...stop editing...*/</code>) a <code>.htaccess</code> (gan gymryd lle rheolau cyfredol WordPress)."
+
+#: wp-admin/network.php:235 wp-admin/network.php:478 wp-admin/network.php:514
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Efallai nad yw rhwydweithiau'n gwbl gytûn â chyfeiriaduron cyfaddas wp-content."
+
+#: wp-admin/network/settings.php:37
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Dogfennaeth ar Osodiadau Rhwydwaith</a>"
+
+#: wp-admin/network/site-users.php:230
+msgid "Enter the username and email."
+msgstr "Rhowch enw defnyddiwr ac e-bost."
+
+#: wp-admin/network/site-users.php:218
+msgid "Select a user to change role."
+msgstr "Dewiswch ddefnyddiwr er mwyn newid rôl."
+
+#: wp-admin/network/site-users.php:224
+msgid "Select a user to remove."
+msgstr "Dewiswch ddefnyddiwr i'w dynnu."
+
+#: wp-admin/network/site-users.php:227
+msgid "User created."
+msgstr "Defnyddiwr wedi ei greu."
+
+#: wp-admin/network/users.php:41
+msgid "Warning! User cannot be deleted. The user %s is a network administrator."
+msgstr "Rhybudd! Nid oes modd diddymu'r defnyddiwr. Gweinyddwr Rhwydwaith yw %s."
+
+#: wp-admin/network/users.php:66
+msgid "Site: %s"
+msgstr "Gwefan: %s"
+
+#: wp-admin/network/site-users.php:278 wp-admin/network/user-new.php:102
+msgid "Add User"
+msgstr "Ychwanegu Defnyddiwr"
+
+#: wp-admin/network/user-new.php:51
+msgid "Cannot add user."
+msgstr "Methu ychwanegu defnyddiwr."
+
+#: wp-admin/network/sites.php:118
+msgid "You are not allowed to delete the site."
+msgstr "Nid oes gennych hawl i ddileu'r wefan."
+
+#: wp-admin/network/site-users.php:209
+msgid "User is already a member of this site."
+msgstr "Mae'r defnyddiwr hwnnw eisoes yn aelod o'r wefan."
+
+#: wp-admin/network/site-info.php:84
+msgid "Site info updated."
+msgstr "Gwybodaeth gwefan wedi eu diweddaru."
+
+#: wp-admin/network/users.php:38
+msgid "Warning! User %s cannot be deleted."
+msgstr "Rhybudd! Nid oes modd dileu defnyddiwr %s."
+
+#: wp-admin/network/site-users.php:212
+msgid "Enter the username of an existing user."
+msgstr "Rhowch enw defnyddiwr cyfredol."
+
+#: wp-admin/network/themes.php:246
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Nid oes modd i chi dileu ategyn tra'i fod yn weithredol ar y brif wefan."
+
+#: wp-admin/network/site-new.php:106 wp-admin/network/site-new.php:116
+msgid "Add New Site"
+msgstr "Ychwanegu Gwefan Newydd"
+
+#: wp-admin/network/themes.php:242
+msgctxt "network"
+msgid "Theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "Dilëwyd y thema."
+msgstr[1] "%s thema wedi eu dileu."
+msgstr[2] "%s thema wedi eu dileu"
+msgstr[3] "%s thema wedi eu dileu"
+
+#: wp-admin/network/themes.php:214
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Dogfennaeth ar Themau Rhwydwaith</a>"
+
+#: wp-admin/network/site-info.php:103 wp-admin/network/site-settings.php:94
+#: wp-admin/network/site-themes.php:146 wp-admin/network/site-users.php:191
+msgid "Info"
+msgstr "Gwybodaeth"
+
+#: wp-admin/network/themes.php:147
+msgid "Are you sure you wish to delete these themes?"
+msgstr "Ydych chi'n siŵr eich bod am ddileu'r themâu hyn?"
+
+#: wp-admin/network/themes.php:156
+msgid "Yes, Delete this theme"
+msgid_plural "Yes, Delete these themes"
+msgstr[0] "Dileu'r thema"
+msgstr[1] "Dileu'r themâu"
+msgstr[2] "Dileu'r themâu"
+msgstr[3] "Dileu'r themâu"
+
+#: wp-admin/network/themes.php:142
+msgid "You are about to remove the following theme:"
+msgid_plural "You are about to remove the following themes:"
+msgstr[0] "Rydych ar fin tynnu'r thema ganlynol:"
+msgstr[1] "Rydych ar fin tynnu'r themâu canlynol:"
+msgstr[2] "Rydych ar fin tynnu'r themâu canlynol:"
+msgstr[3] "Rydych ar fin tynnu'r themâu canlynol:"
+
+#: wp-admin/network/themes.php:141
+msgid "This theme may be active on other sites in the network."
+msgid_plural "These themes may be active on other sites in the network."
+msgstr[0] "Gall y thema hon fod yn weithredol ar wefannau eraill yn y rhwydwaith."
+msgstr[1] "Gall y themau hyn fod yn weithredol ar wefannau eraill yn y rhwydwaith."
+msgstr[2] "Gall y thema hon fod yn weithredol ar wefannau eraill yn y rhwydwaith."
+msgstr[3] "Gall y thema hon fod yn weithredol ar wefannau eraill yn y rhwydwaith."
+
+#: wp-admin/network/themes.php:139
+msgid "Delete Theme"
+msgid_plural "Delete Themes"
+msgstr[0] "Dileu Thema"
+msgstr[1] "Dileu Themâu"
+msgstr[2] "Dileu Themâu"
+msgstr[3] "Dileu Themâu"
+
+#: wp-admin/network/menu.php:46 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "Gosodiadau Rhwydwaith"
+
+#: wp-admin/network/site-themes.php:168
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Nid yw themau sy'n cael eu galluogi gan themau yn cael eu dangos ar y sgrin hon."
+
+#: wp-admin/network/themes.php:17
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "Nid oes gennych hawliau digonol i reoli themâu’r rhwydwaith."
+
+#: wp-admin/network/menu.php:58
+msgid "Available Updates"
+msgstr "Diweddariadau ar Gael"
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Bydd Ychwanegu Defnyddiwr yn creu cyfrif newydd ar y rhwydwaith ac anfon e-bost at y person hwnnw yn cynnwys enw defnyddiwr a chyfrinair."
+
+#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:79
+#: wp-admin/network/site-themes.php:133 wp-admin/network/site-users.php:161
+msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
+msgstr "Golygu Gwefan Edit Site: <a href=\"%1$s\">%2$s</a>"
+
+#: wp-admin/network/themes.php:105
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "Nid oes gennych hawliau digonol i ddileu'r themâu’r wefan hon."
+
+#: wp-admin/network/site-themes.php:163 wp-admin/network/themes.php:239
+msgid "Theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "Thema wedi ei hanablu."
+msgstr[1] "& thema wedi eu hanablu."
+msgstr[2] "& thema wedi eu hanablu."
+msgstr[3] "& thema wedi eu hanablu."
+
+#: wp-admin/network/site-info.php:39 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:54 wp-admin/network/site-users.php:49
+msgid "Invalid site ID."
+msgstr "Enw gwefan annilys."
+
+#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:236
+msgid "Theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "Thema wedi ei alluogi."
+msgstr[1] "%s thema wedi eu galluogi."
+msgstr[2] "%s wedi ei hanablu."
+msgstr[3] "%s wedi ei hanablu."
+
+#: wp-admin/network/site-themes.php:165 wp-admin/network/themes.php:244
+msgid "No theme selected."
+msgstr "Heb ddewis thema."
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> - This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>Themâu</strong> - Mae'r ardal hon yn dangos themau sydd heb eu galluogi ar draws y rhwydwaith. Mae galluogi thema yn y ddewislen hon yn gwneud hi'n fynedadwy i'r wefan hon. Nid yw'n gweithredu'r thema ond yn caniatáu iddo ymddangos yn newislen Gwedd y wefan. I alluogi thema ar gyfer y rhwydwaith cyfan, gweler sgrin <a href=\"%s\">Themau Rhwydwaith</a>."
+
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:80
+#: wp-admin/network/site-themes.php:134 wp-admin/network/site-users.php:162
+msgid "Edit Site: %s"
+msgstr "Golygu Gwefan: %s"
+
+#: wp-admin/network/themes.php:159
+msgid "No, Return me to the theme list"
+msgstr "Na, Nôl i'r rhestr themâu"
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>Gosodiadau</strong> - Mae’r dudalen hon yn dangos yr holl osodiadau sy'n gysylltiedig â'r wefan hon. Mae rhai wedi eu creu gan WordPress ond mae rhai eraill yn cael eu creu gan yr ategion rydych yn eu defnyddio. Sylwch fod rhai meysydd wedi eu tywyllu a'u henwi Data Arbenigol. Nid oes modd i chi newid y gwerthoedd hyn oherwydd y modd mae'r gosodiad wedi ei chadw yn y gronfa ddata."
+
+#: wp-admin/network/site-themes.php:130 wp-admin/network/themes.php:201
+msgctxt "themes per page (screen options)"
+msgid "Themes"
+msgstr "Themâu"
+
+#: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>Gwybodaeth</strong> - Yn anaml fydd y parth a'r llwybr yn cael eu golygu gan y gall hyn achosi i'r wefan beidio â gweithio. Mae'r dyddiad Cofrestru a’r dyddiad Diweddarwyd Diwethaf yn cael eu dangos. Gall Gweinyddwyr Rhwydwaith nodi gwefan fel wedi ei archifo, sbam, wedi ei dileu neu yn aeddfed, tynnu rhestru cyhoeddus neu eu hanablu."
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>Defnyddwyr</strong> - Mae hwn yn dangos y defnyddwyr sy'n gysylltiedig â'r wefan. Mae modd i chi hefyd newid eu rôl, ailosod eu cyfrinair neu eu tynnu o'r wefan. Nid yw tynnu'r defnyddiwr o'r wefan yn eu tynnu o'r rhwydwaith."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "Mae'r ddewislen ar gyfer golygu gwybodaeth benodol i wefannau unigol, yn arbennig os nad yw ardal weinyddol y wefan ar gael."
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Mae'r Bwrdd Rheoli yn arwain at Fwrdd Rheoli’r wefan."
+
+#: wp-admin/network/settings.php:145
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "Caniatáu i weinyddwr gwefan ychwanegu defnyddwyr newydd i'w gwefan drwy dudalen \"Ychwanegu Defnyddwyr Newydd\"."
+
+#: wp-admin/network/settings.php:281
+msgid "Language Settings"
+msgstr "Gosodiadau Iaith"
+
+#: wp-admin/network/site-settings.php:75
+msgid "Site options updated."
+msgstr "Gosodiadau gwefan wedi eu diweddaru."
+
+#: wp-admin/network/menu.php:31
+msgid "Installed Themes"
+msgstr "Themâu wedi eu Gosod"
+
+#: wp-admin/network/menu.php:27
+msgid "Themes %s"
+msgstr "Themâu: %s"
+
+#: wp-admin/network/site-info.php:32 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Dogfennaeth ar Reoli Themâu</a>"
+
+#: wp-admin/network/menu.php:18 wp-admin/network/sites.php:254
+msgctxt "site"
+msgid "Add New"
+msgstr "Ychwanegu"
+
+#: wp-admin/network/menu.php:17
+msgid "All Sites"
+msgstr "Pob Gwefan"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Dogfennaeth ar Weinyddu Rhwydwaith</a>"
+
+#: wp-admin/network/site-themes.php:17
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "Nid oes gennych hawliau digonol i reoli themâu’r wefan hon."
+
+#: wp-admin/network/site-new.php:103
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Wedi ychwanegu gwefan. <a href=\"%1$s\">Ymweld â'r Wefan</a> neu <a href=\"%2$s\">Golygu'r Wefan</a>"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Mae Ychwanegu yn eich cymryd i sgrin Ychwanegu Gwefan Newydd. Mae modd chwilio am wean yn ôl Enw, Rhif neu gyfeiriad IP. Mae Dewisiadau Sgrin yn caniatáu i chi ddewis sawl gwefan i'w dangos ar un tudalen."
+
+#: wp-admin/network/user-new.php:17
+msgid "You do not have sufficient permissions to add users to this network."
+msgstr "Nid oes gennych ddigon o hawl i ychwanegu defnyddwyr i'r rhwydwaith hwn."
+
+#: wp-admin/network/sites.php:25
+msgctxt "sites per page (screen options)"
+msgid "Sites"
+msgstr "Gwefannau"
+
+#: wp-admin/network/sites.php:206
+msgid "You do not have permission to delete that site."
+msgstr "Nid oes gennych hawl i ddileu'r wefan."
+
+#: wp-admin/network/site-new.php:17
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "Nid oes gennych ddigon o hawl i ychwanegu gwefannau i'r rhwydwaith hwn."
+
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:228
+msgctxt "theme"
+msgid "Add New"
+msgstr "Ychwanegu"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:243
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Dogfennaeth ar Ddefnyddwyr Rhwydwaith</a>"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "Mae clicio ar benawdau trwm yn ad-drefnu’r tabl."
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Mae dileu yn weithred barhaol ar ôl y sgriniau cadarnhau."
+
+#: wp-admin/network/themes.php:209
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "Mae modd galluogi themâu ar wefan ar sail gwefannau unigol gan y gweinyddwr rhwydwaith yn y sgrin Golygu Gwefan (sydd â thab Themâu); mae modd cyrraedd yna drwy ddolen gweithredu Golygu ar y sgrin Pob Gwefan. Dim ond gweinyddwyr rhwydwaith sy'n gallu gosod neu olygu thema."
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Dolen Golygu i sgrin Golygu Gwefan gwahanol."
+
+#: wp-admin/network/site-new.php:23
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "Mae'r sgrin yma ar gyfer Uwch Weinyddwyr i ychwanegu gwefannau newydd i'r rhwydwaith. Nid yw hyn yn cael ei effeithio gan osodiadau cofrestru."
+
+#: wp-admin/network/menu.php:53
+msgid "Updates"
+msgstr "Diweddaru"
+
+#: wp-admin/network/settings.php:32
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Nid oes modd ychwanegu uwch weinyddwyr ar y sgrin Dewisiadau bellach. Rhaid mynd i restr defnyddwyr cyfredol yn Gweinyddwr Rhwydwaith > Defnyddwyr a chlicio ar Enw Defnyddiwr neu ddolen gweithred Golygu o dan yr enw hwnnw. Mae hwn yn mynd i dudalen Golygu Defnyddiwr lle mae modd ticio blwch i gyflwyno hawliau uwch weinyddwr."
+
+#: wp-admin/network.php:227
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "fel <code>%1$s/site1</code> a <code>%1$s/site2</code>"
+
+#: wp-admin/network.php:240 wp-admin/network.php:244 wp-admin/network.php:284
+msgid "Server Address"
+msgstr "Cyfeiriad Gweinydd"
+
+#: wp-admin/network.php:258
+msgid "Because you are using <code>localhost</code>, the sites in your WordPress network must use sub-directories. Consider using <code>localhost.localdomain</code> if you wish to use sub-domains."
+msgstr "Gan eich bod yn defnyddio <code>localhost</code>, rhaid i wefannau ar eich rhwydwaith WordPress ddefnyddio is gyfeiriaduron. Ystyriwch ddefnyddio <code>localhost.localdomain</code> os ydych am ddefnyddio is barthau."
+
+#: wp-admin/network.php:261 wp-admin/network.php:271 wp-admin/network.php:278
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "Rhaid i brif wefan gosodiad is-gyfeiriadur ddefnyddio strwythur dolen barhaol wahanol, sydd yn debygol o dorri dolenni cyfredol."
+
+#: wp-admin/network.php:268
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "Gan fod eich gosodiad o fewn cyfeiriadur, rhaid i wefannau o fewn eich rhwydwaith WordPress ddefnyddio is-gyfeiriaduron."
+
+#: wp-admin/network.php:276
+msgid "Sub-domain Install"
+msgstr "Gosod mewn Is Gyfeiriadur"
+
+#: wp-admin/network.php:277
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "Gan nad yw eich gosodiad yn newydd raid i wefannau o fewn eich rhwydwaith WordPress ddefnyddio is-gyfeiriaduron."
+
+#: wp-admin/network/settings.php:93 wp-admin/network.php:291
+msgid "Network Title"
+msgstr "Teitl Rhwydwaith"
+
+#: wp-admin/network.php:295
+msgid "What would you like to call your network?"
+msgstr "Beth hoffech alw eich rhwydwaith?"
+
+#: wp-admin/network.php:304
+msgid "Your email address."
+msgstr "Eich cyfeiriad e-bost."
+
+#: wp-admin/network.php:351
+msgid "The original configuration steps are shown here for reference."
+msgstr "Mae camau gwreiddiol y ffurfweddiad ar gael yma er gwybodaeth."
+
+#: wp-admin/network.php:356
+msgid "An existing WordPress network was detected."
+msgstr "Mae rhwydwaith cyfredol WordPress wedi ei ganfod."
+
+#: wp-admin/network.php:357
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "Cwblhewch y camau ffurfweddu. Er mwyn creu rhwydwaith newydd, bydd angen i chi wagio neu dynnu tablau cronfa ddata'r rhwydwaith."
+
+#: wp-admin/network.php:368
+msgid "Enabling the Network"
+msgstr "Galluogi'r Rhwydwaith"
+
+#: wp-admin/network.php:369
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Cwblhewch y camau canlynol er mwyn galluogi'r nodweddion angenrheidiol ar gyfer creu rhwydwaith o wefannau."
+
+#: wp-admin/network.php:372 wp-admin/network.php:374
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files."
+msgstr "<strong>Rhybudd:</strong> Rydym yn argymell eich bod yn gwneud copïau wrth gefn o'ch ffeil <code>wp-config.php</code> a ffeiliau <code>%s</code>."
+
+#: wp-admin/network.php:376
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file."
+msgstr "<strong>Rhybudd:</strong> Rydym yn argymell eich bod yn gwneud copïau wrth gefn o'ch ffeil <code>wp-config.php</code>."
+
+#: wp-admin/network.php:382
+msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "Ychwanegwch y canlynol i'ch ffeil <code>wp-config.php</code> yn <code>%s</code> <strong>uwchlaw'r</strong> llinell <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+
+#: wp-admin/network.php:196
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "Llanwch y wybodaeth isod a byddwch ar eich ffordd i greu rhwydwaith o wefannau WordPress. Byddwn yn creu'r ffeiliau ffurfweddu yn ystod y cam nesaf."
+
+#: wp-admin/network.php:208
+msgid "Note:"
+msgstr "Sylw:"
+
+#: wp-admin/network.php:208
+msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
+msgstr "Gwnewch yn siŵr fod y modiwl Apache <code>mod_rewrite</code> wedi ei osod gan y bydd yn cael ei ddefnyddio ar ddiwedd y gosod."
+
+#: wp-admin/network.php:413
+msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
+msgid_plural "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
+msgstr[0] "Mae eich allwedd dilysu unigryw hefyd ar goll o'ch ffeil <code>wp-config.php</code>."
+msgstr[1] "Mae eich allweddi dilysu unigryw hefyd ar goll o'ch ffeil <code>wp-config.php</code>."
+msgstr[2] "Mae eich allweddi dilysu unigryw hefyd ar goll o'ch ffeil <code>wp-config."
+msgstr[3] "Mae eich allweddi dilysu unigryw hefyd ar goll o'ch ffeil <code>wp-config."
+
+#: wp-admin/network.php:171
+msgid "You cannot install a network of sites with your server address."
+msgstr "Nid oes modd gosod rhwydwaith o wefannau gyda'ch cyfeiriad gweinydd chi."
+
+#: wp-admin/network.php:172
+msgid "You cannot use port numbers such as <code>%s</code>."
+msgstr "Nid oes modd defnyddio rhifau porth <code>%s</code>."
+
+#: wp-admin/network.php:218
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "Bydd angen cofnod wildcard DNS os ydych am ddefnyddio swyddogaethau gwestai rhithiol (is barth)."
+
+#: wp-admin/network.php:212
+msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
+msgstr "Os yw <code>mod_rewrite</code> wedi ei alluogi, gofynnwch i'ch gweinyddwr ei gychwyn, neu ddarllen <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">dogfennaeth Apache</a> neu <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">rhywle arall</a> am gymorth."
+
+#: wp-admin/network.php:192
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "Gwefannau %s"
+
+#: wp-admin/network.php:246 wp-admin/network.php:286
+msgid "The internet address of your network will be <code>%s</code>."
+msgstr "Cyfeiriad rhyngrwyd eich rhwydwaith fydd <code>%s</code>."
+
+#: wp-admin/network.php:210 wp-admin/network.php:235 wp-admin/network.php:261
+#: wp-admin/network.php:271
+msgid "Warning!"
+msgstr "Rhybudd!"
+
+#: wp-admin/network.php:222
+msgid "Sub-domains"
+msgstr "Is barthau"
+
+#: wp-admin/network.php:413
+msgid "To make your installation more secure, you should also add:"
+msgstr "I wneud eich gosodiad yn fwy diogel, dylech ychwanegu:"
+
+#: wp-admin/network.php:114
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "Dewiswch is barthau neu isgyfeiriaduron; gall hyn ddim ond cael ei newid yn hwyrach drwy ailffurfweddu eich gosodiad. Llanwch fanylion y rhwydwaith a chlicio gosod. Os nad yw hyn yn gweithio, efallai bydd yn rhaid ychwanegu cofnod wildcard DNS (ar gyfer is barthau) neu newid gosodiadau eraill yn y Dolenni Parhaol (ar gyfer isgyfeiriaduron)."
+
+#: wp-admin/network.php:115
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Bydd y sgrin nesaf Gosod Rhwydwaith yn cynhyrchu llinellau o god wedi eu cynhyrchu'n unigol i'w hychwanegu at eich ffeiliau wp-config.php a .htaccess. Gwnewch yn siŵr fod gosodiadau eich cleient FTP yn dangos ffeiliau gyda'r dot yn weladwy, fel bod modd canfod .htaccess; efallai y bydd yn rhaid i chi greu'r ffeil os nad yw yna. Gwnewch gopïau wrth gefn o'r ddwy ffeil."
+
+#: wp-admin/network.php:523
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Unwaith i chi gwblhau'r camau hyn, mae eich rhwydwaith wedi ei alluogi a'i ffurfweddu. Bydd rhaid i chi fewngofnodi eto."
+
+#: wp-admin/network.php:154
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "Nid oes modd diffinio'r cysonyn DO_NOT_UPGRADE_GLOBAL_TABLES wrth greu rhwydwaith."
+
+#: wp-admin/network.php:252
+msgid "Network Details"
+msgstr "Manylion Rhwydwaith"
+
+#: wp-admin/network.php:195
+msgid "Welcome to the Network installation process!"
+msgstr "Croeso i'r broses gosod Rhwydwaith!"
+
+#: wp-admin/network.php:210
+msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
+msgstr "Mae'n ymddangos nad yw'r modiwl Apache <code>mod_rewrite</code> wedi ei osod."
+
+#: wp-admin/network.php:120 wp-admin/network.php:131
+msgid "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Dogfennaeth Creu Rhwydwaith</a>"
+
+#: wp-admin/network.php:118
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Mae'r dewis o wefannau is-gyfeiriadur wedi ei anablu os yw'r gosodiad yn fwy na mis oed oherwydd problemau dolenni parhaol gyda &#8220;/blog/&#8221; o'r brif wefan. Bydd yr anablu hwn yn cael sylw yn y dyfodol."
+
+#: wp-admin/network.php:162
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Unwaith mae'r rhwydwaith wedi ei greu, mae modd ail gychwyn eich ategion."
+
+#: wp-admin/network.php:162
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "Os gwelwch chi'n dda, <a href=\"%s\">dadweithredwch eich ategion</a> cyn galluogi'r nodwedd Rhwydwaith."
+
+#: wp-admin/network.php:241
+msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the <code>www</code> prefix with an address like <code>%2$s</code> but any links will not have the <code>www</code> prefix."
+msgstr "Rydym yn argymell eich bod yn newid eich siteurl i <code>%1$s</code> cyn galluogi nodwedd rhwydwaith. Bydd hi dal yn bosib ymweld â'ch gwefan drwy ddefnyddio'r rhagddodiad <code>www</code> gyda chyfeiriad fel <code>%2$s</code> ond ni fydd gan unrhyw ddolen rhagddodiad <code>www</code>."
+
+#: wp-admin/network.php:256 wp-admin/network.php:266
+msgid "Sub-directory Install"
+msgstr "Gosodiad Is gyfeiriadur"
+
+#: wp-admin/network.php:113
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "Mae'r sgrin hon yn caniátau i chi ffurfweddu rhwydwaith fel petai'n meddu ar is barthau (<code>site1.example.com</code>) neu isgyfeiriaduron (<code>example.com/site1</code>). Mae is barthau angen isbarthau wildcard wedi eu galluogi yn Apache a chofnodion DNS, os yw eich gwesteiwr yn caniátau hynny."
+
+#: wp-admin/network.php:109
+msgid "Create a Network of WordPress Sites"
+msgstr "Creu Rhwydwaith o Wefannau WordPress"
+
+#: wp-admin/network.php:173
+msgid "Return to Dashboard"
+msgstr "Dychwelyd i'r Bwrdd Rheoli"
+
+#: wp-admin/network.php:27
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Nid yw'r panel creu rhwydwaith ar gyfer rhwydweithiau WordPress MU."
+
+#: wp-admin/network.php:162 wp-admin/network.php:356 wp-admin/network.php:478
+#: wp-admin/network.php:514
+msgid "Warning:"
+msgstr "Rhybudd:"
+
+#: wp-admin/network.php:217
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
+msgstr "Dewiswch os ydych am i'ch gwefannau yn eich rhwydwaith WordPress ddefnyddio is barthau neu isgyfeiriaduron. <strong>Nid oes modd newid hyn yn hwyrach.</strong>"
+
+#: wp-admin/network.php:121 wp-admin/network.php:132
+msgid "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Dogfennaeth ar Sgriniau Rhwydwaith</a>"
+
+#: wp-admin/network.php:216
+msgid "Addresses of Sites in your Network"
+msgstr "Cyfeiriadau Gwefannau eich Rhwydwaith"
+
+#: wp-admin/network.php:223
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "fel <code>site1.%1$s</code> a <code>site2.%1$s</code>"
+
+#: wp-admin/network.php:125
+msgid "Network"
+msgstr "Rhwydwaith"
+
+#: wp-admin/network.php:226
+msgid "Sub-directories"
+msgstr "Is gyfeiriaduron"
+
+#: wp-admin/network.php:103
+msgid "You must define the <code>WP_ALLOW_MULTISITE</code> constant as true in your wp-config.php file to allow creation of a Network."
+msgstr "Rhaid diffinio cysonyn <code>WP_ALLOW_MULTISITE</code> fel true yn eich ffeil wp-config.php er mwyn caniatáu creu'r Rhwydwaith."
+
+#: wp-admin/network.php:185
+msgid "ERROR: The network could not be created."
+msgstr "GWALL: Nid oedd modd creu'r rhwydwaith."
+
+#: wp-admin/network.php:117
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Unwaith i chi ychwanegu'r cod hwn ac ailgychwyn eich porwr, dylai amlwefan fod wedi ei alluogi. Bydd y sgrin hon, nawr yn newislen symud y Gweinyddwr Rhwydwaith, yn cadw archif o'r cod ychwanegwyd. Mae modd toglo rhwng Gweinyddwr Rhwydwaith a Gweinyddwr Gwefan drwy glicio ar y Gweinyddwr Rhwydwaith neu enw gwefan unigol o dan gwymplen Gwefannau yn y Bar Offer."
+
+#: wp-admin/network/site-info.php:17 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "Nid oes gennych ddigon o hawliau i olygu'r wefan hon."
+
+#: wp-admin/network/users.php:143
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Rhybudd! Nid oes modd newid y defnyddiwr. Gweinyddwr Rhwydwaith yw defnyddiwr %s."
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Os nad yw e-bost gweinyddol y wefan newydd yn bodoli yn y gronfa ddata, bydd defnyddiwr newydd hefyd yn cael ei greu."
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Dadweithredu, Archifo a Sbam sy’n arwain at y sgrin cadarnhau. Mae modd dadwneud y gweithredoedd hyn."
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "Mae ID y wefan yn cael ei ddefnyddio'n fewnol, ac nid yw'n cael ei ddangos ar flaen y wefan nag i ddefnyddwyr/darllenwyr."
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Mae hofran dros bob gwefan yn amlygu saith dewis (tri o'r prif wefan):"
+
+#: wp-admin/network/settings.php:27
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Mae gan osodiadau'r rhwydwaith feysydd ar gyfer enw’r rhwydwaith ac e-bost gweinyddol."
+
+#: wp-admin/network/users.php:235
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Mae modd hefyd i fynd at dudalen proffil y defnyddiwr drwy glicio ar yr enw defnyddiwr unigol."
+
+#: wp-admin/network/users.php:237
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "Bydd y gweithredu niferus yn dileu'r defnyddwyr yma'n barhaol neu eu marcio dadfarcio y rhai sydd wedi eu nodi fel sbam. Bydd defnyddwyr sbam yn cael eu cofnodion wedi eu tynnu ac ni fydd modd iddynt ymuno eto gyda'r un cyfeiriad e-bost."
+
+#: wp-admin/network/settings.php:30
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "Mae'r gosodiadau llwytho i fyny yn rheoli maint y ffeiliau sydd wedi eu llwytho i fyny a maint y gofod llwytho i fyny sydd gan bob gwefan. Mae modd newid y gwerthoedd rhagosodedig ar gyfer gwefannau pennodol pan fyddwch yn golygu gwefan penodol. Mae feiliau cymeradwy hefyd yn cael eu rhestri (bwlch gwahannu yn unig)."
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the frontend site live."
+msgstr "Ymweliad i'r wefan fyw blaen."
+
+#: wp-admin/network/settings.php:29
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "Mae gosodiadau'r wefan newydd yn rhagosodedig sy'n cael eu gosod pan fydd gwefan newydd yn cael ei chreu ar y rhwydwaith. Mae'r rhain yn cynnwys e-bost croeso pan fydd gwefan neu ddefnyddiwr newydd yn cael eu cofrestru a beth sy'n cael ei osod yn y cofnod cyntaf, tudalen, sylw awdur sylw ac URL sylw."
+
+#: wp-admin/network/themes.php:207
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "Mae'r sgrin hon yn galluogi ac analluogi cynnwys themâu sydd ar gael yn y ddewislen Gwedd ar gyfer pob gwefan. Nid yw'n galluogi neu analluogi pa thema mae gwefan yn ei defnyddio ar hyn o bryd."
+
+#: wp-admin/network/themes.php:208
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Os yw gweinyddwr rhwydwaith yn analluogi thema sy'n cael ei defnyddio, mae dal ar gael ei defnyddio ar y wefan. Os yw thema arall yn cael ei dewis, ni fydd y thema anablwyd yn sgrin Gwedd > Thema y wefan."
+
+#: wp-admin/network/settings.php:26
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "Mae'r sgrin hon yn gosod a newid dewisiadau ar gyfer y rhwydwaith cyfan. Y wefan gyntaf yw'r brif wefan yn y rhwydwaith ac mae dewisiadau'r rhwydwaith yn cael eu tynnu o ddewisiadau'r wefan wreiddiol."
+
+#: wp-admin/network/settings.php:28
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "Mae gosodiadau cofrestru yn gallu galluogi/analluogi'r cyhoedd i ymuno. Os ydych yn caniatáu i eraill ymuno a gwefan, cofiwch osod ategion sbam. Dylai fylchau nid collnod rannu enwau wedi eu rhwystro fel gwefannau ar gyfer y rhwydwaith hwn."
+
+#: wp-admin/network/settings.php:31
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "Mae gosodiadau dewislen galluogi/analluogi dewislenni ategion rhag ymddangos ar gyfer y sawl nad ydynt yn uwch weinyddwyr, fel mai dim ond uwch weinyddwyr ac nid gweinyddwyr gwefan, sy'n cael mynediad i weithredu ategion."
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "Dyma brif dabl pob gwefan ar y rhwydwaith hwn. Symudwch rhwng golwg rhestr a chyfran drwy ddefnyddio'r eiconau uwchlaw ochr dde'r tabl."
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Mae defnyddwyr sydd wedi ymuno a'r rhwydwaith heb wefan yn cael eu hychwanegu fel tanysgrifwyr i'r prif fwrdd rheoli, gan ddarparu tudalennau proffil i reoli eu cyfrifon. Bydd y defnyddwyr yma yn gweld Bwrdd Rheoli a Fy Ngwefannau yn y prif faes llywio nes bod gwefan wedi ei greu ar eu cyfer."
+
+#: wp-admin/network/users.php:236
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr "Mae modd didoli'r tabl drwy glicio ar unrhyw un o'r penawdau trwm a newid rhwng golwg rhestr a chydran drwy ddefnyddio'r eiconau ar y brif ar y dde."
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Os fydd y broses hon yn methu am unrhyw reswm, bydd defnyddwyr wedi eu mewngofnodi i'w gwefannau yn gorfodi'r un diweddariad."
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Os na fydd diweddariad fersiwn i'r craidd wedi digwydd, ni fydd clicio ar y botwm yn effeithio ar ddim."
+
+#: wp-admin/network/users.php:233
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Mae'r tabl yma'n dangos pob defnyddiwr ar draws y rhwydwaith a'r gwefannau maent wedi eu dynodi."
+
+#: wp-admin/network/users.php:238
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Mae modd gwneud defnyddiwr cyfredol yn uwch weinyddwr ychwanegol drwy fynd i dudalen proffil Golygu Defnyddiwr a thicio'r blwch i ganiatáu’r hawl."
+
+#: wp-admin/network/site-new.php:49
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "Mae'r geiriau canlynol wedi eu cadw ar gyfer defnydd gan swyddogaethau WordPress ac nid oes modd eu defnyddio fel enwau blogiau: <code>%s</code>"
+
+#: wp-admin/network/upgrade.php:69
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
+msgstr "Rhybudd! Anhawster wrth ddiweddaru %1$s. Efallai na fydd modd i'ch gweinydd gysylltu â gwefannau sy'n rhedeg arno. Neges Gwall: <em>%2$s</em>"
+
+#: wp-admin/network/settings.php:167
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Os ydych eisiau cyfyngu cofrestriad parth i barthau penodol. Un parth i bob llinell."
+
+#: wp-admin/network/settings.php:178
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Os ydych eisiau atal parthau rhag cofrestriad gwefan. Un parth i bob llinell."
+
+#: wp-admin/network/settings.php:125
+msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Os yw cofrestriad wedi ei anablu, gosodwch <code>NOBLOGREDIRECT</code> yn <code>wp-config.php</code> i URL y byddwch yn ailgyfeirio ymwelwyr iddo os fyddant yn ymweld â gwefan nad yw'n bod."
+
+#: wp-admin/network/site-new.php:37
+msgid "Can&#8217;t create an empty site."
+msgstr "Methu creu gwefan gwag."
+
+#: wp-admin/network/upgrade.php:88
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Os nad yw eich porwr yn cychwyn llwytho'r dudalen nesaf yn awtomatig, cliciwch y ddolen yma:"
+
+#: wp-admin/network/sites.php:224
+msgid "Site marked as spam."
+msgstr "Gwefan wedi ei farcio fel sbam."
+
+#: wp-admin/network/sites.php:197
+msgid "Sites marked as spam."
+msgstr "Gwefan wedi eu marcio fel sbam."
+
+#: wp-admin/network/sites.php:194
+msgid "Sites removed from spam."
+msgstr "Gwefan wedi ei dynnu o'r sbam."
+
+#: wp-admin/network/users.php:261
+msgid "Users removed from spam."
+msgstr "Defnyddwyr wedi eu tynnu o'r sbam."
+
+#: wp-admin/network/sites.php:221
+msgid "Site removed from spam."
+msgstr "Gwefan wedi ei dynnu o'r sbam."
+
+#: wp-admin/network/sites.php:200
+msgid "Sites deleted."
+msgstr "Gwefannau wedi eu dileu."
+
+#: wp-admin/network/sites.php:203
+msgid "Site deleted."
+msgstr "Gwefan wedi ei dileu."
+
+#: wp-admin/network/users.php:258
+msgid "Users marked as spam."
+msgstr "Defnyddiwr wedi eu marcio fel sbam."
+
+#: wp-admin/network/site-info.php:142
+msgid "Update <code>siteurl</code> and <code>home</code> as well."
+msgstr "Diweddaru <code>siteurl</code> a <code>cartref</code> hefyd."
+
+#: wp-admin/network/sites.php:218
+msgid "Site deactivated."
+msgstr "Gwefan yn anweithredol."
+
+#: wp-admin/network/sites.php:215
+msgid "Site activated."
+msgstr "Gwefan yn weithredol."
+
+#: wp-admin/network/sites.php:212
+msgid "Site unarchived."
+msgstr "Gwefan wedi ei ddadarchifo."
+
+#: wp-admin/network/users.php:264
+msgid "Users deleted."
+msgstr "Defnyddwyr wedi eu dileu."
+
+#: wp-admin/network/sites.php:209
+msgid "Site archived."
+msgstr "Gwefan wedi ei archifo."
+
+#: wp-admin/network/site-new.php:60
+msgid "Invalid email address."
+msgstr "Cyfeiriad e=bost annilys."
+
+#: wp-admin/network/site-new.php:76
+msgid "There was an error creating the user."
+msgstr "Bu gwall wrth greu defnyddiwr."
+
+#: wp-admin/network/sites.php:64 wp-admin/network/sites.php:131
+msgid "You are not allowed to change the current site."
+msgstr "Nid oes gennych hawl i newid y wefan gyfredol."
+
+#: wp-admin/network/settings.php:272
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/settings.php:266
+msgid "Upload file types"
+msgstr "Llwytho mathau o ffeil i fyny"
+
+#: wp-admin/network/settings.php:261
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Cyfyngu maint cyfanswm ffeiliau wedi eu llwytho i fyny i %s MB"
+
+#: wp-admin/network/settings.php:242
+msgid "The author of the first comment on a new site."
+msgstr "Awdur y sylw cyntaf ar y wefan newydd."
+
+#: wp-admin/network/settings.php:213
+msgid "The first post on a new site."
+msgstr "Y cofnod cyntaf ar wefan newydd."
+
+#: wp-admin/network/settings.php:223
+msgid "The first page on a new site."
+msgstr "Y dudalen gyntaf ar wefan newydd."
+
+#: wp-admin/network/settings.php:233
+msgid "The first comment on a new site."
+msgstr "Y sylw cyntaf ar wefan newydd."
+
+#: wp-admin/network/settings.php:251
+msgid "The URL for the first comment on a new site."
+msgstr "URL y sylw cyntaf ar wefan newydd."
+
+#: wp-admin/network/upgrade.php:57
+msgid "All done!"
+msgstr "Wedi gorffen!"
+
+#: wp-admin/network/settings.php:121
+msgid "Logged in users may register new sites."
+msgstr "Gall defnyddwyr sydd wedi mewngofnodi gofrestru gwefannau newydd."
+
+#: wp-admin/network/settings.php:122
+msgid "Both sites and user accounts can be registered."
+msgstr "Mae modd cofrestru gwefannau a chyfrifon defnyddwyr."
+
+#: wp-admin/network/settings.php:120
+msgid "User accounts may be registered."
+msgstr "Mae modd cofrestru cyfrifon defnyddwyr."
+
+#: wp-admin/network/settings.php:119
+msgid "Registration is disabled."
+msgstr "Mae cofrestru wedi ei anablu."
+
+#: wp-admin/network/settings.php:299
+msgid "Enable administration menus"
+msgstr "Galluogi dewislenni gweinyddol"
+
+#: wp-admin/network/settings.php:90
+msgid "Operational Settings"
+msgstr "Gosodiadau Gweithredol"
+
+#: wp-admin/network/settings.php:256
+msgid "Upload Settings"
+msgstr "Gosodiadau Llwytho i Fyny"
+
+#: wp-admin/network/settings.php:184
+msgid "New Site Settings"
+msgstr "Gosodiadau Gwefan Newydd"
+
+#: wp-admin/network/settings.php:109
+msgid "Registration Settings"
+msgstr "Gosodiadau Cofrestru"
+
+#: wp-admin/network/site-new.php:56
+msgid "Missing or invalid site address."
+msgstr "Cyfeiriad gwefan coll neu annilys."
+
+#: wp-admin/network/site-new.php:58
+msgid "Missing email address."
+msgstr "Cyfeiriad e-bost coll."
+
+#: wp-admin/network/settings.php:100 wp-admin/network.php:300
+msgid "Network Admin Email"
+msgstr "E-bost Gweinyddwr Rhwydwaith"
+
+#: wp-admin/network/site-new.php:91
+msgid "[%s] New Site Created"
+msgstr "[%s] Gwefan Newydd wedi ei Chreu"
+
+#: wp-admin/network/settings.php:193
+msgid "The welcome email sent to new site owners."
+msgstr "E-bost croeso anfonwyd at bob perchennog gwefan."
+
+#: wp-admin/network/settings.php:259
+msgid "Site upload space"
+msgstr "Gofod llwytho i fyny gwefan"
+
+#: wp-admin/network/settings.php:138
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "Anfon at y gweinyddwr rhwydwaith e-bost hysbysu bob tro bydd rhywun yn cofrestru gwefan neu gyfrif defnyddiwr."
+
+#: wp-admin/network/settings.php:154
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Nid oes hawl gan ddefnyddwyr i gofrestru y gwefannau hyn. Gwahanu enwau gyda bylchau."
+
+#: wp-admin/network/upgrade.php:88
+msgid "Next Sites"
+msgstr "Gwefan Nesaf"
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:17
+#: wp-admin/network/site-info.php:43 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:53
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:100
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:36
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:94
+#: wp-admin/network/users.php:116 wp-admin/network/users.php:129
+#: wp-admin/network/users.php:180
+msgid "You do not have permission to access this page."
+msgstr "Nid oes gennych digon o hawl i gael mynediad i'r dudalen hon."
+
+#: wp-admin/network/sites.php:77
+msgid "Confirm"
+msgstr "Cadarnhau"
+
+#: wp-admin/network/user-new.php:39
+msgid "Cannot create an empty user."
+msgstr "Methu creu defnyddiwr gwag."
+
+#: wp-admin/network/site-users.php:233
+msgid "Duplicated username or email address."
+msgstr "Enw defnyddiwr neu gyfeiriad e-bost dyblyg."
+
+#: wp-admin/network/settings.php:112
+msgid "Allow new registrations"
+msgstr "Caniatáu cofrestriadau newydd"
+
+#: wp-admin/network/settings.php:132
+msgid "Registration notification"
+msgstr "Hysbysiad cofrestru"
+
+#: wp-admin/network/settings.php:143
+msgid "Add New Users"
+msgstr "Ychwanegu Defnyddiwr Newydd"
+
+#: wp-admin/network/settings.php:150
+msgid "Banned Names"
+msgstr "Enw Gwaharddedig"
+
+#: wp-admin/network/settings.php:160
+msgid "Limited Email Registrations"
+msgstr "Cofrestriad E-bost Cyfyngedig"
+
+#: wp-admin/network/settings.php:173
+msgid "Banned Email Domains"
+msgstr "Parthau E-bost Gwaharddedig"
+
+#: wp-admin/network/settings.php:188
+msgid "Welcome Email"
+msgstr "E-bost Croeso"
+
+#: wp-admin/network/settings.php:198
+msgid "Welcome User Email"
+msgstr "E-bost Croeso i Ddefnyddiwr"
+
+#: wp-admin/network/settings.php:203
+msgid "The welcome email sent to new users."
+msgstr "E-bost croeso anfonwyd at bob defnyddiwr newydd."
+
+#: wp-admin/network/settings.php:218
+msgid "First Page"
+msgstr "Tudalen Gyntaf"
+
+#: wp-admin/network/settings.php:228
+msgid "First Comment"
+msgstr "Sylw Cyntaf"
+
+#: wp-admin/network/settings.php:238
+msgid "First Comment Author"
+msgstr "Awdur Sylw Cyntaf"
+
+#: wp-admin/network/settings.php:247
+msgid "First Comment URL"
+msgstr "URL Sylw Cyntaf"
+
+#: wp-admin/network/settings.php:271
+msgid "Max upload file size"
+msgstr "Maint ffeil llwytho i fyny mwyaf"
+
+#: wp-admin/network/settings.php:284
+msgid "Default Language"
+msgstr "Iaith Ragosodedig"
+
+#: wp-admin/network/site-new.php:149
+msgid "Add Site"
+msgstr "Ychwanegu Gwefan"
+
+#: wp-admin/network/site-new.php:126
+msgid "Site Address"
+msgstr "Cyfeiriad Gwefan"
+
+#: wp-admin/network/site-new.php:142
+msgid "Admin Email"
+msgstr "E-bost Gweinyddwr"
+
+#: wp-admin/network/site-new.php:146
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Bydd defnyddiwr newydd yn cael ei greu os nad yw'r e-bost uchod yn y gronfa ddata."
+
+#: wp-admin/network/site-new.php:146
+msgid "The username and password will be mailed to this email address."
+msgstr "Bydd enw defnyddiwr a chfrinair yn cael ei anfon at y cyfeiriad e-bost hwn."
+
+#: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:98
+msgid "Username and password will be mailed to the above email address."
+msgstr "Bydd enw defnyddiwr a chfrinair yn cael ei anfon at y cyfeiriad e-bost uchod."

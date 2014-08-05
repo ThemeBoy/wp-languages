@@ -1,0 +1,1098 @@
+# Translation of Network Admin in Norwegian (Nynorsk)
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-12-05 10:50:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network.php:474 wp-admin/network.php:510
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr ""
+
+#: wp-admin/network/users.php:48
+msgid "What should be done with content owned by %s?"
+msgstr ""
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:33
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:244
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr ""
+
+#: wp-admin/network/sites.php:70
+msgid "Confirm your action"
+msgstr ""
+
+#: wp-admin/network/users.php:25
+msgid "Transfer or delete content before deleting users."
+msgstr ""
+
+#: wp-admin/network/settings.php:104
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "Denne epostadressa får varslingar. Registrering- og støtte-epostar vil òg koma frå denne adressa."
+
+#: wp-admin/network/users.php:234
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Hald peikaren over ein brukar i lista for å få fram redigeringslenkjene. Rediger-lenkja til venstre går til profilsida til brukaren; Rediger-lenkja til høgre ved sidan av eit nettstadnamn går til Rediger-sida for den nettstaden."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Klikk på <strong>Legg til ny brukar</strong> for å leggja til ein ny brukar."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Klikk på <strong>Lag ny nettstad</strong> for å laga ein ny nettstad.."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Viss du vil søkja etter ein brukar, <strong>skriv du inn eit brukarnamn eller ei epostadresse</strong>. Bruk jokerteikn for å søkja etter delar av brukarnamn, til dømes brukar&#42;."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Viss du vil søkja etter ein nettstad, <strong>skriv du inn stigen eller domenenamnet</strong>."
+
+#: wp-admin/network/upgrade.php:106
+msgid "The database upgrade process may take a little while, so please be patient."
+msgstr "Det kan ta litt tid å oppgradera databasen, så vis tolmod."
+
+#: wp-admin/network/settings.php:82
+msgid "Options saved."
+msgstr "Innstillingane er lagra."
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Velkomen til nettverksstyringa! På desse sidene styrer du alt som har med oppsett av fleire nettstader å gjera."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "Her kan du:"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "Leggja til nettstader og brukarar"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "Installera og skru på bunader og innstikk"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "Oppdatera nettverket ditt"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "Endra allmenne nettverksinnstillingar"
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Nett no-feltet på denne sida gjev deg oversikt over brukarar og nettstader på nettverket ditt."
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "Viss du vil søkja etter ei brukar eller nettstad, bruker du søkjeboksane."
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "Snøggoppgåver"
+
+#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:107
+msgid "Upgrade Network"
+msgstr "Oppgrader nettverket"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Bruk denne sida berre når du har oppdatert til ei ny utgåve av WordPress gjennom Oppdateringar /Tilgjengelege oppdateringar (via nettverksstyrarmenyen eller verktylinja). Viss du klikkar på Oppgrader nettverk, vil programmet gå gjennom fem nettstader om gongen, og sjå til at alle databaseoppgraderingane blir tekne i bruk."
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Hjelp om å oppgradera nettverket</a>"
+
+#: wp-admin/network/upgrade.php:102
+msgid "Database Upgrade Required"
+msgstr "Du må oppgradera databasen"
+
+#: wp-admin/network/upgrade.php:103
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "WordPress er oppdatert! Før du får sleppe vidare, må me oppgradera kvar nettstad i nettverket ditt."
+
+#: wp-admin/network/site-new.php:87
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"Ny nettstad laga av %1$s\n"
+"\n"
+"Adresse: %2$s\n"
+"Namn: %3$s"
+
+#: wp-admin/network.php:116
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Legg desse linene til i wp-config.php (rett før <code>/*...ikkje rediger meir...*/</code>) og <code>.htaccess</code> (slik at dei byter ut andre WordPress-reglar)."
+
+#: wp-admin/network.php:235 wp-admin/network.php:478 wp-admin/network.php:514
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Undermappenettverk er ikkje alltid heilt kompatible med eigne wp-content-mapper."
+
+#: wp-admin/network/settings.php:37
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Hjelp om netverksinnstillingar</a>"
+
+#: wp-admin/network/site-users.php:230
+msgid "Enter the username and email."
+msgstr "Skriv inn brukarnamn og epost."
+
+#: wp-admin/network/site-users.php:218
+msgid "Select a user to change role."
+msgstr "Vel ein brukar for å endra brukarrolla."
+
+#: wp-admin/network/site-users.php:224
+msgid "Select a user to remove."
+msgstr "Vel ein brukar du vil fjerna."
+
+#: wp-admin/network/site-users.php:227
+msgid "User created."
+msgstr "Brukaren er oppretta."
+
+#: wp-admin/network/users.php:41
+msgid "Warning! User cannot be deleted. The user %s is a network administrator."
+msgstr "Åtvaring: Kan ikkje sletta brukaren. Brukaren %s er nettverkstyrar."
+
+#: wp-admin/network/users.php:66
+msgid "Site: %s"
+msgstr "Nettstad: %s"
+
+#: wp-admin/network/site-users.php:278 wp-admin/network/user-new.php:102
+msgid "Add User"
+msgstr "Legg til brukar"
+
+#: wp-admin/network/user-new.php:51
+msgid "Cannot add user."
+msgstr "Greier ikkje leggja til brukaren."
+
+#: wp-admin/network/sites.php:118
+msgid "You are not allowed to delete the site."
+msgstr "Du har ikkje løyve til å sletta nettstaden."
+
+#: wp-admin/network/site-users.php:209
+msgid "User is already a member of this site."
+msgstr "Brukaren er allereie medlem på denne nettstaden."
+
+#: wp-admin/network/site-info.php:84
+msgid "Site info updated."
+msgstr "Oppdaterte info om nettstaden."
+
+#: wp-admin/network/users.php:38
+msgid "Warning! User %s cannot be deleted."
+msgstr "Åtvaring: Greier ikkje å sletta brukaren %s."
+
+#: wp-admin/network/site-users.php:212
+msgid "Enter the username of an existing user."
+msgstr "Skriv inn brukarnamnet på ein eksisterande brukar."
+
+#: wp-admin/network/themes.php:246
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Du kan ikkje sletta ein bunad som er aktiv på hovudbølet."
+
+#: wp-admin/network/site-new.php:106 wp-admin/network/site-new.php:116
+msgid "Add New Site"
+msgstr "Legg til ny nettstad"
+
+#: wp-admin/network/themes.php:242
+msgctxt "network"
+msgid "Theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "Sletta bunaden."
+msgstr[1] "Sletta %s bunader."
+
+#: wp-admin/network/themes.php:214
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Hjelp om nettverksbunader</a>"
+
+#: wp-admin/network/site-info.php:103 wp-admin/network/site-settings.php:94
+#: wp-admin/network/site-themes.php:146 wp-admin/network/site-users.php:191
+msgid "Info"
+msgstr "Info"
+
+#: wp-admin/network/themes.php:147
+msgid "Are you sure you wish to delete these themes?"
+msgstr "Er du sikker på at du vil sletta desse bunadene?"
+
+#: wp-admin/network/themes.php:156
+msgid "Yes, Delete this theme"
+msgid_plural "Yes, Delete these themes"
+msgstr[0] "Ja, slett denne bunaden"
+msgstr[1] "Ja, slett desse bunadene"
+
+#: wp-admin/network/themes.php:142
+msgid "You are about to remove the following theme:"
+msgid_plural "You are about to remove the following themes:"
+msgstr[0] "Du skal til å fjerna denne bunaden:"
+msgstr[1] "Du skal til å fjerna desse bunadene: "
+
+#: wp-admin/network/themes.php:141
+msgid "This theme may be active on other sites in the network."
+msgid_plural "These themes may be active on other sites in the network."
+msgstr[0] "Denne bunaden kan vera i bruk på andre nettstader i nettverket."
+msgstr[1] "Desse bunadene kan vera i bruk på andre nettstader i nettverket."
+
+#: wp-admin/network/themes.php:139
+msgid "Delete Theme"
+msgid_plural "Delete Themes"
+msgstr[0] "Slett bunaden"
+msgstr[1] "Slett bunadene"
+
+#: wp-admin/network/menu.php:46 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "Nettverksinnstillingar"
+
+#: wp-admin/network/site-themes.php:168
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Bunader som er skrudde på for heile nettverket, syner ikkje på denne skjermen."
+
+#: wp-admin/network/themes.php:17
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "Du har ikkje løyve til å handtera bunader for nettverket."
+
+#: wp-admin/network/menu.php:58
+msgid "Available Updates"
+msgstr "Tilgjengelege oppdateringar"
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Legg til brukar vil laga ein ny brukarkonto på nettverket, og senda den personen ein epost med brukarnamn og passord."
+
+#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:79
+#: wp-admin/network/site-themes.php:133 wp-admin/network/site-users.php:161
+msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
+msgstr "Endra nettstaden: <a href=\"%1$s\">%2$s</a>"
+
+#: wp-admin/network/themes.php:105
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "Du har ikkje løyve til å sletta bunader på denne netstaden."
+
+#: wp-admin/network/site-themes.php:163 wp-admin/network/themes.php:239
+msgid "Theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "Bunaden er ikkje i bruk."
+msgstr[1] "Bunadene er ikkje i bruk."
+
+#: wp-admin/network/site-info.php:39 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:54 wp-admin/network/site-users.php:49
+msgid "Invalid site ID."
+msgstr "Ugyldig nettstad-ID."
+
+#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:236
+msgid "Theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "Bunaden er teken i bruk."
+msgstr[1] "Bunadene er tekne i bruk."
+
+#: wp-admin/network/site-themes.php:165 wp-admin/network/themes.php:244
+msgid "No theme selected."
+msgstr "Du har ikkje valt nokon bunad."
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> - This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>Bunader</strong> - I dette området ser du bunader som ikkje er i bruk over heile nettverket. Å ta i bruk ein bunad frå denne menyen gjer han tilgjengeleg for denne nettstaden. Du skrur ikkje på bunaden, men gjer han synleg i Utsjånad-menyen for nettstaden. For å ta i bruk ein bunad for heile nettverket, kan du sjå på <a href=\"%s\">nettverksbunad</a>-sida."
+
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:80
+#: wp-admin/network/site-themes.php:134 wp-admin/network/site-users.php:162
+msgid "Edit Site: %s"
+msgstr "Endra nettstad: %s"
+
+#: wp-admin/network/themes.php:159
+msgid "No, Return me to the theme list"
+msgstr "Nei, gå tilbake til lista over bunader"
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>Innstillingar</strong> - På denne sida ser du ei liste over alle innstillingane til denne nettstaden. Nokre innstillingar er laga av WordPress, andre av dei innstikka du bruker. Merk at nokre felt er gråfarga, og med teksten Serielle data. Du kan ikkje endra desse felta på grunn av måten innstillingane blir lagra på i databasen."
+
+#: wp-admin/network/site-themes.php:130 wp-admin/network/themes.php:201
+msgctxt "themes per page (screen options)"
+msgid "Themes"
+msgstr "Bunader"
+
+#: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>Info</strong> - Nettnamnet og stigane blir sjeldan endra, fordi det kan føra til at nokre nettstader ikkje fungerer ordentleg. Datoane for registrering og siste oppdatering viser. Nettverksstyrarar kan merka ein nettstad som arkivert, søpel, sletta og moden, som skal fjernast frå offentlege lister eller takast ned."
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>Brukarar</strong> - Her ser du brukarane på nettstaden. Du kan endra rolla deira, nullstilla passord, eller fjerna dei frå nettstaden. Å fjerna ein brukar frå nettstaden fjernar han ikkje frå heile nettverket."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "Denne menyen er for å endra informasjon om einskilde nettstader, spesielt om styringspanelet for den nettstaden ikkje er tilgjengeleg."
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Styringspanel går til styringspanelet for den nettstaden."
+
+#: wp-admin/network/settings.php:145
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "Gje nettstadstyrarar løyve til å leggja til nye brukarar på nettstaden sin via \"Brukarar &rarr; Legg til ny\"-sida."
+
+#: wp-admin/network/settings.php:281
+msgid "Language Settings"
+msgstr "Språkinnstillingar"
+
+#: wp-admin/network/site-settings.php:75
+msgid "Site options updated."
+msgstr "Oppdaterte val for nettstaden."
+
+#: wp-admin/network/menu.php:31
+msgid "Installed Themes"
+msgstr "Installerte bunader"
+
+#: wp-admin/network/menu.php:27
+msgid "Themes %s"
+msgstr "Bunader %s"
+
+#: wp-admin/network/site-info.php:32 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Hjelp om å handtera nettstader</a>"
+
+#: wp-admin/network/menu.php:18 wp-admin/network/sites.php:254
+msgctxt "site"
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: wp-admin/network/menu.php:17
+msgid "All Sites"
+msgstr "Alle nettstader"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Hjelp om nettverksstyraren</a>"
+
+#: wp-admin/network/site-themes.php:17
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "Du har ikkje løyve til å handtera bunader på denne nettstaden."
+
+#: wp-admin/network/site-new.php:103
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Nettstaden er lagt til. <a href=\"%1$s\">Gå til styringspanelet</a> eller <a href=\"%2$s\">endra nettstaden</a>"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Med \"legg til ny\" kjem du til sida for å leggja til nye nettstader. Du kan søkja gjennom nettstader etter namn, ID-nummer eller IP-adresse. Med \"skjermval\" kan du velja kor mange nettstader du vil visa per side."
+
+#: wp-admin/network/user-new.php:17
+msgid "You do not have sufficient permissions to add users to this network."
+msgstr "Du har ikkje løyve til å leggja til brukarar på dette nettverket."
+
+#: wp-admin/network/sites.php:25
+msgctxt "sites per page (screen options)"
+msgid "Sites"
+msgstr "Nettstader"
+
+#: wp-admin/network/sites.php:206
+msgid "You do not have permission to delete that site."
+msgstr "Du har ikkje løyve til å sletta den nettstaden."
+
+#: wp-admin/network/site-new.php:17
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "Du har ikkje løyve til å leggja til nettstader på dette nettverket."
+
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:228
+msgctxt "theme"
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:243
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Hjelp om nettverksbrukarar (engelsk)</a>"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "Ordna tabellen ved å klikka på utheva overskrifter."
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Å sletta er ei endeleg handling etter stadfestingssidene."
+
+#: wp-admin/network/themes.php:209
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "Nettverksstyraren kan skru på bunader for kvar nettstad via Rediger nettstad-sida (som har ei fane for bunader); gå dit via Endra-handlingslenkja på skjermen Alle nettstader. Berre nettverksstyrarar har lov til å installera eller endra bunader."
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Ei lenkje for å redigera nettstaden på ei eiga redigeringsside."
+
+#: wp-admin/network/site-new.php:23
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "På denne skjermen kan superstyrarar leggja til nye nettstader i nettverket. Dette har ingenting med registreringsoppsettet å gjera."
+
+#: wp-admin/network/menu.php:53
+msgid "Updates"
+msgstr "Oppdateringar"
+
+#: wp-admin/network/settings.php:32
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Det er ikkje mogleg lenger å leggja til superstyrarar via val-sida. I staden må du gå til lista over brukarar på nettverksstyrar > brukarar og klikka på brukarnamnet eller \"endra\"-handlingslenkja under namnet. Då kjem du til ei side for å endra brukarar, og der er kan du kryssa av for å gje brukaren superstyrar-rettar."
+
+#: wp-admin/network.php:227
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "slik som <code>%1$s/nettstad1</code> og <code>%1$s/nettstad2</code>"
+
+#: wp-admin/network.php:240 wp-admin/network.php:244 wp-admin/network.php:284
+msgid "Server Address"
+msgstr "Tenaradresse"
+
+#: wp-admin/network.php:258
+msgid "Because you are using <code>localhost</code>, the sites in your WordPress network must use sub-directories. Consider using <code>localhost.localdomain</code> if you wish to use sub-domains."
+msgstr "Av di du bruker <code>localhost</code>, må nettstadene på WordPress-nettverket ditt bruka undermapper. Bruk heller <code>localhost.localdomain</code> viss du vil ha underdomene."
+
+#: wp-admin/network.php:261 wp-admin/network.php:271 wp-admin/network.php:278
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "EIn hovudnettstad i ei undermappe må bruka endra fastlenkjastruktur, og det kan øydeleggja eksisterande lenkjer."
+
+#: wp-admin/network.php:268
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "Instasllasjonen din er i ei mappe, og difor må nettstadene i nettverket ditt bruka undermapper."
+
+#: wp-admin/network.php:276
+msgid "Sub-domain Install"
+msgstr "Installasjon på underdomene"
+
+#: wp-admin/network.php:277
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "Av di installasjonen din ikkje er ny, må nettstadene i WordPress-nettverket ditt bruka undermapper."
+
+#: wp-admin/network/settings.php:93 wp-admin/network.php:291
+msgid "Network Title"
+msgstr "Namn på nettverket"
+
+#: wp-admin/network.php:295
+msgid "What would you like to call your network?"
+msgstr "Kva vil du kalla nettverket ditt?"
+
+#: wp-admin/network.php:304
+msgid "Your email address."
+msgstr "Epostadressa di."
+
+#: wp-admin/network.php:351
+msgid "The original configuration steps are shown here for reference."
+msgstr "Dei opphavlege oppsettsstega står her, så du har dei til seinare."
+
+#: wp-admin/network.php:356
+msgid "An existing WordPress network was detected."
+msgstr "Me oppdaga at det finst eit WordPress-nettverk her."
+
+#: wp-admin/network.php:357
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "Ver god å fullføra oppsettet. For å laga eit nettverk, må du tømma eller fjerna nettverks-databasetabellane."
+
+#: wp-admin/network.php:368
+msgid "Enabling the Network"
+msgstr "Slår på nettverksfunskjonen"
+
+#: wp-admin/network.php:369
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Fullfør desse stega for å slå på funksjonane for å laga eit nettverk av nettstader."
+
+#: wp-admin/network.php:372 wp-admin/network.php:374
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files."
+msgstr "<strong>Åtvaring:</strong> Me tilrår at du tryggingskopierer <code>wp-config.php</code>- og <code>%s</code>-filene."
+
+#: wp-admin/network.php:376
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file."
+msgstr "<strong>Pass på:</strong> Me rår til at du tryggingskopierer <code>wp-config.php</code>-fila."
+
+#: wp-admin/network.php:382
+msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "Legg dette til i <code>wp-config.php</code>-fila i <code>%s</code> <strong>over</strong> linja der det står <code>/* Det var alt, ikkje endra meir!. */</code>:"
+
+#: wp-admin/network.php:196
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "Fyll inn opplysingane under, så er du godt i gang med å laga ditt eige nettverk av WordPress-nettstader. Me lagar oppsettsfiler i neste steget."
+
+#: wp-admin/network.php:208
+msgid "Note:"
+msgstr "Merk:"
+
+#: wp-admin/network.php:208
+msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
+msgstr "Pass på at Apache-modulen <code>mod_rewrite</code> er installert, sidan me kjem til å bruka han på slutten av denne installasjonen."
+
+#: wp-admin/network.php:413
+msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
+msgid_plural "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
+msgstr[0] "Denne unike lykjelen manglar òg i <code>wp-config.php</code>-fila di."
+msgstr[1] "Desse unike lyklane manglar òg i <code>wp-config.php</code>-fila di."
+
+#: wp-admin/network.php:171
+msgid "You cannot install a network of sites with your server address."
+msgstr "Du kan ikkje installera eit nettverk av nettstader med denne tenaradressa."
+
+#: wp-admin/network.php:172
+msgid "You cannot use port numbers such as <code>%s</code>."
+msgstr "Du kan ikkje bruka portnummer, slik som <code>%s</code>."
+
+#: wp-admin/network.php:218
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "Du treng eit DNS-oppsett med jokerteikn viss du vil bruka funksjonen for virtuell vert (underdomene)."
+
+#: wp-admin/network.php:212
+msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
+msgstr "Viss <code>mod_rewrite</code> må du be nettstyraren din om å skru på modulen, eller sjå på <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache-rettleiingane</a> eller <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">andre stader</a> for hjelp til å setja han opp."
+
+#: wp-admin/network.php:192
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "%s-nettstader"
+
+#: wp-admin/network.php:246 wp-admin/network.php:286
+msgid "The internet address of your network will be <code>%s</code>."
+msgstr "Nettadressa til nettverket ditt vil vera <code>%s</code>."
+
+#: wp-admin/network.php:210 wp-admin/network.php:235 wp-admin/network.php:261
+#: wp-admin/network.php:271
+msgid "Warning!"
+msgstr "Åtvaring!"
+
+#: wp-admin/network.php:222
+msgid "Sub-domains"
+msgstr "Underdomene"
+
+#: wp-admin/network.php:413
+msgid "To make your installation more secure, you should also add:"
+msgstr "For å gjera installasjonen sikrare, bør du òg leggja til:"
+
+#: wp-admin/network.php:114
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "Vel underdomene eller undermapper. Du kan berre byta dette etterpå ved å gjera om heile installasjonen din. Fyll ut detaljar for nettverket ditt, og klikk på installer. Viss det ikkje verkar, må du truleg leggja til jokerteikn-DNS (for underdomene) eller endra til ei anna innstilling under Fastlenkjer (for undermapper)."
+
+#: wp-admin/network.php:115
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Den neste skjermen for nettverksoppsett gjev deg tilpassa linjer med kode du kan leggja til i filene wp-config.php og .htaccess. Pass på at FTP-programmet ditt er stilt til å syna filer som byrjar med eit punktum, slik at du finn .htaccess. Det kan henda du må oppretta denne fila om ho ikkje er der frå før. Lag tryggingskopiar av dei to filene om dei finst frå før."
+
+#: wp-admin/network.php:523
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Når du er gjennom desse stega, er nettverket slege på og sett opp. Du må då logga inn på nytt."
+
+#: wp-admin/network.php:154
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "Det går ikkje an å definera konstanten DO_NOT_UPGRADE_GLOBAL_TABLES når du lagar eit nettverk."
+
+#: wp-admin/network.php:252
+msgid "Network Details"
+msgstr "Detaljar om nettverket"
+
+#: wp-admin/network.php:195
+msgid "Welcome to the Network installation process!"
+msgstr "Velkomen til nettverksinstalleringa!"
+
+#: wp-admin/network.php:210
+msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
+msgstr "Det ser ut som Apache-modulen <code>mod_rewrite</code> ikkje er installert."
+
+#: wp-admin/network.php:120 wp-admin/network.php:131
+msgid "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Hjelp om å laga nettverk (engelsk)</a>"
+
+#: wp-admin/network.php:118
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Å velja undermapper for nettstader er skrudd av viss dette oppsettet er meir enn ein månad gamalt. Det er på grunn av fastlenkjeproblem med &#8220;/blogg/&#8221; frå hovudbølet. Me kjem til å fiksa dette problemet i ein framtidig versjon."
+
+#: wp-admin/network.php:162
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Når nettverket er oppretta, kan du skru på att innstikka dine."
+
+#: wp-admin/network.php:162
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "<a href=\"%s\">Skru av innstikka</a> før du skrur på nettverk-funksjonen."
+
+#: wp-admin/network.php:241
+msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the <code>www</code> prefix with an address like <code>%2$s</code> but any links will not have the <code>www</code> prefix."
+msgstr "Me rår til at du endrar nettstadadressa til <code>%1$s</code> før du skrur på nettverksfunksjonen. Du vil framleis kunna vitja nettstaden med <code>www</code>-prefikset, med ei adresse som <code>%2$s</code>, men ingen lenkjer kjem til å ha <code>www</code>-prefikset."
+
+#: wp-admin/network.php:256 wp-admin/network.php:266
+msgid "Sub-directory Install"
+msgstr "Installasjon i undermapper"
+
+#: wp-admin/network.php:113
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "På denne skjermen kan du setja opp eit nettverk med underdomene (<code>nettstad1.døme.no</code>) eller undermapper (<code>døme.no/nettstad1</code>). Viss du vil ha underdomene, må du ha skrudd på jokerteikn i Apache- og DNS-oppsettet, viss nettverten gjev løyve til det."
+
+#: wp-admin/network.php:109
+msgid "Create a Network of WordPress Sites"
+msgstr "Lag eit nettverk av WordPress-nettstader"
+
+#: wp-admin/network.php:173
+msgid "Return to Dashboard"
+msgstr "Tilbake til styringspanelet"
+
+#: wp-admin/network.php:27
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Panelet for å laga nettverk er ikkje for WordPress MU-nettverk."
+
+#: wp-admin/network.php:162 wp-admin/network.php:356 wp-admin/network.php:478
+#: wp-admin/network.php:514
+msgid "Warning:"
+msgstr "Åtvaring:"
+
+#: wp-admin/network.php:217
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
+msgstr "Vel om nettstadene i eit WordPress-nettverk skal bruka underdomene eller undermapper. <strong>Du kan ikkje endra dette seinare.</strong>"
+
+#: wp-admin/network.php:121 wp-admin/network.php:132
+msgid "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Hjelp om nettverkssida (engelsk)</a>"
+
+#: wp-admin/network.php:216
+msgid "Addresses of Sites in your Network"
+msgstr "Adressene til nettstadene på nettverket ditt"
+
+#: wp-admin/network.php:223
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "slik som <code>nettstad1.%1$s</code> og <code>nettstad2.%1$s</code>"
+
+#: wp-admin/network.php:125
+msgid "Network"
+msgstr "Nettverk"
+
+#: wp-admin/network.php:226
+msgid "Sub-directories"
+msgstr "Undermapper"
+
+#: wp-admin/network.php:103
+msgid "You must define the <code>WP_ALLOW_MULTISITE</code> constant as true in your wp-config.php file to allow creation of a Network."
+msgstr "For å kunna laga eit nettverk, må du setja <code>WP_ALLOW_MULTISITE</code>-konstanten som 'true' i wp-config.php-fila di."
+
+#: wp-admin/network.php:185
+msgid "ERROR: The network could not be created."
+msgstr "FEIL: Greidde ikkje laga nettverket."
+
+#: wp-admin/network.php:117
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Når du har lagt til denne koden, og lasta denne sida på nytt, skal funksjonen for fleire nettstader vera på. Denne sida vil då finnast i nettverksstyrar-menyen, og vil innehalda ei oversikt over den koden du la til. Du kan veksla mellom nettverksstyrar og nettstadstyrar ved å klikka på nettverksstyrar eller eit av dei individuelle nettstadnamna under nedtrekksmenyen 'Mine nettstader' på verktylina."
+
+#: wp-admin/network/site-info.php:17 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "Du har ikkje løyve til å endra denne nettstaden."
+
+#: wp-admin/network/users.php:143
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Åtvaring: Kan ikkje endra denne brukaren. Brukaren %s er netverksstyrar. "
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Viss epostadressa til den nye netstadstyraren ikkje finst i databasen, blir det òg laga ein ny brukar."
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Slå av, Arkiver og Søpel tek deg til stadfestingsskjermar. Du kan angra desse handlingane seinare."
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "Netstad-IDen blir brukt internt, og syner ikkje på framsida av netstaden eller til brukarar og lesarar."
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Viss du held peikaren over ein netstad, får du fram sju val (tre for hovudbølet):"
+
+#: wp-admin/network/settings.php:27
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Køyreinnstillingar har felt for netverksnamn og epost til styraren."
+
+#: wp-admin/network/users.php:235
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Du kan òg gå til profilsida åt brukaren ved å klikka på kvart brukarnamn."
+
+#: wp-admin/network/users.php:237
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "Massehandlinga vil sletta brukarar for alltid, eller merka/fjerna merke for søpel. Søpelbrukarar får fjerna innlegga sine, og får ikkje lov å registrera seg att med same epostadressa."
+
+#: wp-admin/network/settings.php:30
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "Under opplastingsinnstillingane kan du velja kor store opplasta filer kan vera, og kor mykje plass kvar netstad har for opplasta filer. Du kan òg endra standardverdien for kvar netstad når du endrar netstaden. Du finn òg ei liste med kva filtypar som er lov (skilde med mellomrom)."
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the frontend site live."
+msgstr "Besøk for å gå til framsida slik ho er no."
+
+#: wp-admin/network/settings.php:29
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "Innstillingane for nye netstader er standardar som blir tekne i bruk når nokon lagar ein ny netstad på netverket ditt. Mellom desse er velkomstepost for nye netstader eller nye brukarar, og elles kva som står i det fyrste innlegget, sida, innspel, innspelskribent og innspeladresse."
+
+#: wp-admin/network/themes.php:207
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "På denne skjermen kan du skru av og på kva bunader som er tilgjengelege for kvar netstad. Merk at du ikkje skrur på eller av den bunaden netstaden bruker no."
+
+#: wp-admin/network/themes.php:208
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Viss netverksstyraren skrur av ein bunad som er i bruk på ein netstad, er bunaden framleis tilgjengeleg på den netstaden. Viss netstaden då tek i bruk ein annan bunad, vil den avskrudde forsvinna frå lista over tilgjengelege bunader."
+
+#: wp-admin/network/settings.php:26
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "På denne skjermen endrar du innstilingane for heile netverket. Den fyrste netstaden er hovudbølet for netverket, og innstillingane blir tekne frå den netstaden."
+
+#: wp-admin/network/settings.php:28
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "Registreringsinnstillingane kan skru av og på offentlege registreringar på nettstaden. Viss du let andre registrera seg på ein nettstad, bør du installera innstikk som handterer spam. Du må skilja svartelista nettstadnamn på dette nettverket med mellomrom, ikkje komma."
+
+#: wp-admin/network/settings.php:31
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "Menyinnstillingane gjer innstikkmenyane synlege eller gøymer dei for andre enn superstyrarar, slik at berre superstyrarar og ikkje nettstad-styrarar har tilgang til å slå på innstikk."
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "Dette er hovudtabellen over alle nettstadene på dette nettverket. Byt frå liste- til samandragsvising ved å bruka bileta øvst på høgre sida av tabellen."
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Brukarar på dette nettverket som ikkje har nokon nettstad, blir lagt til  som abonnentar til hovudbølet, slik at dei får profilsider til å styra brukarkontoane sine. Desse brukarane ser berre styringspanelet og nettstadene sine i hovudnavigeringa inntil dei får ein nettstad oppretta for seg."
+
+#: wp-admin/network/users.php:236
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr "Du kan sortera tabellen ved å klikka på ei av dei utheva overskriftene, og byta mellom liste- og utdragsvising ved å klikka på ikona øvst til høgre."
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Viss dette av ein eller annan grunn går gale, må brukarar som loggar inn på netstaden sin gå gjennom same oppdateringa."
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Viss ei versjonsoppdatering ikkje har vorte gjennomført, vil det ikkje skje noko om du klikkar på denne knappen."
+
+#: wp-admin/network/users.php:233
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Denne tabellen viser alle brukarane på alle netverk, og dei netstadene dei er kopla til."
+
+#: wp-admin/network/users.php:238
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Du kan gjera ein vanleg brukar til ein superstyrar ved å gå til Endra brukar-profilsida og kryssa av i boksen for å gje slike løyve."
+
+#: wp-admin/network/site-new.php:49
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "Desse orda er haldne att for WordPress-funksjonar, og kan ikkje brukast som namn på bloggar: <code>%s</code>"
+
+#: wp-admin/network/upgrade.php:69
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
+msgstr "Åtvaring! Vanskar med å oppdatera %1$s. Det kan henda tenaren din ikkje greier å kopla til netstader som køyrer på han. Feilmelding: <em>%2$s</em>"
+
+#: wp-admin/network/settings.php:167
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Viss du vil avgrensa nettstadregistreringar til visse domene. Eitt domene på kvar line."
+
+#: wp-admin/network/settings.php:178
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Viss du vil svartelista domene frå å registrera seg. Eitt domene på kvar line."
+
+#: wp-admin/network/settings.php:125
+msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Viss registreringa er skrudd av, set du <code>NOBLOGREDIRECT</code> i <code>wp-config.php</code> til ei adresse du vil omdirigera gjester til om dei går til ein netstad som ikkje finst."
+
+#: wp-admin/network/site-new.php:37
+msgid "Can&#8217;t create an empty site."
+msgstr "Kan ikkje laga ein tom nettstad."
+
+#: wp-admin/network/upgrade.php:88
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Viss neste sida ikkje kjem opp automatisk i nettlesaren din, klikkar du denne lenkja:"
+
+#: wp-admin/network/sites.php:224
+msgid "Site marked as spam."
+msgstr "Netstaden er merkt som søpel."
+
+#: wp-admin/network/sites.php:197
+msgid "Sites marked as spam."
+msgstr "Nettstadene er merka som søpel."
+
+#: wp-admin/network/sites.php:194
+msgid "Sites removed from spam."
+msgstr "Nettstadene er fjerna frå søpelet."
+
+#: wp-admin/network/users.php:261
+msgid "Users removed from spam."
+msgstr "Fjerna brukarane frå søpelet."
+
+#: wp-admin/network/sites.php:221
+msgid "Site removed from spam."
+msgstr "Nettstaden er fjerna frå søpelet."
+
+#: wp-admin/network/sites.php:200
+msgid "Sites deleted."
+msgstr "Netstadene er sletta."
+
+#: wp-admin/network/sites.php:203
+msgid "Site deleted."
+msgstr "Nettstaden er sletta."
+
+#: wp-admin/network/users.php:258
+msgid "Users marked as spam."
+msgstr "Brukarane er merka som søpel."
+
+#: wp-admin/network/site-info.php:142
+msgid "Update <code>siteurl</code> and <code>home</code> as well."
+msgstr "Oppdater <code>siteurl</code> og <code>home</code> òg."
+
+#: wp-admin/network/sites.php:218
+msgid "Site deactivated."
+msgstr "Nettstaden er slegen av."
+
+#: wp-admin/network/sites.php:215
+msgid "Site activated."
+msgstr "Netstaden er skrudd på."
+
+#: wp-admin/network/sites.php:212
+msgid "Site unarchived."
+msgstr "Nettstaden er teken ut or arkivet."
+
+#: wp-admin/network/users.php:264
+msgid "Users deleted."
+msgstr "Sletta brukarane."
+
+#: wp-admin/network/sites.php:209
+msgid "Site archived."
+msgstr "Nettstaden er arkivert."
+
+#: wp-admin/network/site-new.php:60
+msgid "Invalid email address."
+msgstr "Ugyldig epostadresse."
+
+#: wp-admin/network/site-new.php:76
+msgid "There was an error creating the user."
+msgstr "Me fekk ikkje til å laga brukaren."
+
+#: wp-admin/network/sites.php:64 wp-admin/network/sites.php:131
+msgid "You are not allowed to change the current site."
+msgstr "Du har ikkje løyve til å endra denne nettstaden."
+
+#: wp-admin/network/settings.php:272
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/settings.php:266
+msgid "Upload file types"
+msgstr "Filtypar for opplasting"
+
+#: wp-admin/network/settings.php:261
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Avgrens den totale storleiken på opplasta filer til %s MB"
+
+#: wp-admin/network/settings.php:242
+msgid "The author of the first comment on a new site."
+msgstr "Den som skreiv fyrste innspelet på ein ny nettstad."
+
+#: wp-admin/network/settings.php:213
+msgid "The first post on a new site."
+msgstr "Fyrste innlegget på ein ny nettstad."
+
+#: wp-admin/network/settings.php:223
+msgid "The first page on a new site."
+msgstr "Fyrste sida på ein ny nettstad."
+
+#: wp-admin/network/settings.php:233
+msgid "The first comment on a new site."
+msgstr "Fyrste innspelet på ein ny netstad."
+
+#: wp-admin/network/settings.php:251
+msgid "The URL for the first comment on a new site."
+msgstr "Adressa til fyrste innspelet på ein ny nettstad."
+
+#: wp-admin/network/upgrade.php:57
+msgid "All done!"
+msgstr "Ferdig!"
+
+#: wp-admin/network/settings.php:121
+msgid "Logged in users may register new sites."
+msgstr "Innlogga brukarar kan registrera nye nettstader."
+
+#: wp-admin/network/settings.php:122
+msgid "Both sites and user accounts can be registered."
+msgstr "Du kan registrera både brukarkontoar og netstader."
+
+#: wp-admin/network/settings.php:120
+msgid "User accounts may be registered."
+msgstr "Brukarar kan registrera seg."
+
+#: wp-admin/network/settings.php:119
+msgid "Registration is disabled."
+msgstr "Registreringa er skrudd av."
+
+#: wp-admin/network/settings.php:299
+msgid "Enable administration menus"
+msgstr "Slå på styrarmenyar"
+
+#: wp-admin/network/settings.php:90
+msgid "Operational Settings"
+msgstr "Køyreinnstillingar"
+
+#: wp-admin/network/settings.php:256
+msgid "Upload Settings"
+msgstr "Opplastingsinnstillingar"
+
+#: wp-admin/network/settings.php:184
+msgid "New Site Settings"
+msgstr "Innstillingar for nye nettstader"
+
+#: wp-admin/network/settings.php:109
+msgid "Registration Settings"
+msgstr "Registreringsval"
+
+#: wp-admin/network/site-new.php:56
+msgid "Missing or invalid site address."
+msgstr "Manglande eller ugyldig nettstadadresse."
+
+#: wp-admin/network/site-new.php:58
+msgid "Missing email address."
+msgstr "Manglar epostadresse."
+
+#: wp-admin/network/settings.php:100 wp-admin/network.php:300
+msgid "Network Admin Email"
+msgstr "Epost til netverksstyraren"
+
+#: wp-admin/network/site-new.php:91
+msgid "[%s] New Site Created"
+msgstr "[%s] Ein ny nettstad er oppretta"
+
+#: wp-admin/network/settings.php:193
+msgid "The welcome email sent to new site owners."
+msgstr "Eposten som blir sendt til nye nettstadeigarar."
+
+#: wp-admin/network/settings.php:259
+msgid "Site upload space"
+msgstr "Opplastingsstorleik for nettstaden"
+
+#: wp-admin/network/settings.php:138
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "Send nettverksstyraren ein varslingsepost kvar gong nokon registrerer ein nettstad eller brukarkonto."
+
+#: wp-admin/network/settings.php:154
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Brukarar har ikkje løyve til å registrera desse nettstadene. Skil namna med mellomrom."
+
+#: wp-admin/network/upgrade.php:88
+msgid "Next Sites"
+msgstr "Neste nettstader"
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:17
+#: wp-admin/network/site-info.php:43 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:53
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:100
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:36
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:94
+#: wp-admin/network/users.php:116 wp-admin/network/users.php:129
+#: wp-admin/network/users.php:180
+msgid "You do not have permission to access this page."
+msgstr "Du har ikkje løyve til å gå inn på denne sida."
+
+#: wp-admin/network/sites.php:77
+msgid "Confirm"
+msgstr "Stadfest"
+
+#: wp-admin/network/user-new.php:39
+msgid "Cannot create an empty user."
+msgstr "Kan ikkje laga ein tom brukar."
+
+#: wp-admin/network/site-users.php:233
+msgid "Duplicated username or email address."
+msgstr "Dublett-brukarnamn eller epostadresse."
+
+#: wp-admin/network/settings.php:112
+msgid "Allow new registrations"
+msgstr "Tillat nye registreringar"
+
+#: wp-admin/network/settings.php:132
+msgid "Registration notification"
+msgstr "Registreringsvarsel"
+
+#: wp-admin/network/settings.php:143
+msgid "Add New Users"
+msgstr "Legg til nye brukarar"
+
+#: wp-admin/network/settings.php:150
+msgid "Banned Names"
+msgstr "Svartelista namn"
+
+#: wp-admin/network/settings.php:160
+msgid "Limited Email Registrations"
+msgstr "Avgrensa epostregistreringar"
+
+#: wp-admin/network/settings.php:173
+msgid "Banned Email Domains"
+msgstr "Svartelista epostdomene"
+
+#: wp-admin/network/settings.php:188
+msgid "Welcome Email"
+msgstr "Velkomst-epost"
+
+#: wp-admin/network/settings.php:198
+msgid "Welcome User Email"
+msgstr "Velkomst-epost til brukaren"
+
+#: wp-admin/network/settings.php:203
+msgid "The welcome email sent to new users."
+msgstr "Velkomsteposten til nye brukarar."
+
+#: wp-admin/network/settings.php:218
+msgid "First Page"
+msgstr "Fyrste sida"
+
+#: wp-admin/network/settings.php:228
+msgid "First Comment"
+msgstr "Fyrste innspelet"
+
+#: wp-admin/network/settings.php:238
+msgid "First Comment Author"
+msgstr "Fyrste innspelaren"
+
+#: wp-admin/network/settings.php:247
+msgid "First Comment URL"
+msgstr "Adresse for fyrste innspelet"
+
+#: wp-admin/network/settings.php:271
+msgid "Max upload file size"
+msgstr "Største filopplastingsstorleik"
+
+#: wp-admin/network/settings.php:284
+msgid "Default Language"
+msgstr "Standardspråk"
+
+#: wp-admin/network/site-new.php:149
+msgid "Add Site"
+msgstr "Lag nettstad"
+
+#: wp-admin/network/site-new.php:126
+msgid "Site Address"
+msgstr "Nettstadadresse"
+
+#: wp-admin/network/site-new.php:142
+msgid "Admin Email"
+msgstr "Epost til styraren"
+
+#: wp-admin/network/site-new.php:146
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Om epostadressa over ikkje er i databasen, vil det bli laga ein ny brukar."
+
+#: wp-admin/network/site-new.php:146
+msgid "The username and password will be mailed to this email address."
+msgstr "Brukarnamnet og passordet blir sende til denne epostadressa."
+
+#: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:98
+msgid "Username and password will be mailed to the above email address."
+msgstr "Brukarnamnet og passordet blir sende til epostadressa over."

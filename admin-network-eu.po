@@ -1,0 +1,1098 @@
+# Translation of Network Admin in Basque
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-04-04 21:06:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network.php:474 wp-admin/network.php:510
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "Txertatu ondokoa %2$s direktorioan dagoen zure %1$s fitxategira, beste WordPress arauak <strong>ordeztuz</strong>:"
+
+#: wp-admin/network/users.php:48
+msgid "What should be done with content owned by %s?"
+msgstr "Zer egin behar da %s-(r)en edukiekin?"
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:33
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:244
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Laguntza foruak</a>"
+
+#: wp-admin/network/sites.php:70
+msgid "Confirm your action"
+msgstr "Egiaztatu zure ekintza"
+
+#: wp-admin/network/users.php:25
+msgid "Transfer or delete content before deleting users."
+msgstr "Transferitu edo ezabatu edukia erabiltzaileak ezabatu aurretik."
+
+#: wp-admin/network/settings.php:104
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "Helbide honetan jakinarazpenak jasoko dira. Erregistroko eta laguntzako mezuen bidaltzaile gisa ere helbide hau erabiliko da."
+
+#: wp-admin/network/users.php:234
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Jarri sagua zerrendako edozein erabiltzaileren gainean edizio-loturak agertzeko. Ezkerreko Editatu loturak erabitlzailearen profila editatzeko pantailara eramango zaitu; eskumakoak gunearen edizio pantailara eramango zaitu."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Erabiltzaile berri bat gehitzeko, <strong>egin klik Sortu erabiltzaile berria</strong>."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Webgune berri bat gehitzeko, <strong>egin klik Sortu webgune berria</strong>."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Erabiltzaile bat bilatzeko <strong>idatzi eposta helbidea edo erabiltzaile izena</strong>.Erabili '*' karakterea bilaketa partzialak egiteko."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Webgune bat bilatzeko, <strong>idatzi helbidea edo domeinua</strong>."
+
+#: wp-admin/network/upgrade.php:106
+msgid "The database upgrade process may take a little while, so please be patient."
+msgstr "Datubasea eguneratzeak denbora bat hartu dezake, itxaron pixkatean mesedez."
+
+#: wp-admin/network/settings.php:82
+msgid "Options saved."
+msgstr "Aukerak gorde dira."
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Ongi etorri Sareko Admin-era. Administrazio pantailen gune hau, zure gune-anitzetako sarearen ezaugarri ezberdinak kudeatzeko erabiltzen da."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "Hemendik egin dezakezuna:"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "Gehitu eta kudeatu guneak eta erabiltzaileak"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "Instalatu eta aktibatu itxurak edo plugin-ak"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "Eguneratu zure sarea"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "Aldatu sareako ezarpen orokorrak"
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Pantaila honetako Oraintxe Bertan widget-ak, egungo erabiltzailea eta zure sareko guneen kontuak ematen ditu."
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "Erabiltzaile edo gune bat bilatzeko, erabili bilaketa-koadroak."
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "Atasa azkarrak"
+
+#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:107
+msgid "Upgrade Network"
+msgstr "Eguneratu sarea"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Erabili pantaila hau WordPress bertsio berri batera eguneratutakoan bakarrik. Hori egiteko zoaz Eguneraketak/Eguneraketa Eskuragarriak aukerara (bertara heltzeko zoaz trasna-barrara edo nabigazio-menuko Sareko Administraziora). Sarea Eguneratu botoia sakatuz gero, sareko guneak bosnaka eguneratzen joango dira, datu-baseko eguneraketa guztiak aplikatzen direla ziurtatzeko."
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Sarea eguneratzeko dokumentazioa</a>"
+
+#: wp-admin/network/upgrade.php:102
+msgid "Database Upgrade Required"
+msgstr "Datu-basearen eguneraketa beharrezkoa"
+
+#: wp-admin/network/upgrade.php:103
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "WordPress eguneratu egin da! Zure kasa jarraitu aurretik, zure sareko guneak banan-banan eguneratu behar ditugu. "
+
+#: wp-admin/network/site-new.php:87
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"%1$s(e)k sortutako gune berria\n"
+"\n"
+"Helbidea: %2$s\n"
+"Izena: %3$s"
+
+#: wp-admin/network.php:116
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Txertatu seinalatutako kode-lerroak wp-config.php-eri (<code>/*...stop editing...*/</code> abisua baino goratxoago) eta <code>.htaccess</code>-eri (existitzen diren WordPress arauak ordezkatuz). "
+
+#: wp-admin/network.php:235 wp-admin/network.php:478 wp-admin/network.php:514
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Baliteke azpikarpeten sareak ez izatea erabat bateragarriak wp-content direktorio pertsonalizatuekin."
+
+#: wp-admin/network/settings.php:37
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Sarearen ezarpenen dokumentazioa</a>"
+
+#: wp-admin/network/site-users.php:230
+msgid "Enter the username and email."
+msgstr "Sartu erabiltzaile-izena eta e-posta."
+
+#: wp-admin/network/site-users.php:218
+msgid "Select a user to change role."
+msgstr "Aukeratu erabiltzaile bat bere rola aldatzeko."
+
+#: wp-admin/network/site-users.php:224
+msgid "Select a user to remove."
+msgstr "Aukeratu erabiltzaile bat ezabatzeko."
+
+#: wp-admin/network/site-users.php:227
+msgid "User created."
+msgstr "Erabiltzailea sortu da."
+
+#: wp-admin/network/users.php:41
+msgid "Warning! User cannot be deleted. The user %s is a network administrator."
+msgstr "Kontuz! Erabiltzailea ezin da ezabatu. %s erabiltzailea sareko administratzailea da."
+
+#: wp-admin/network/users.php:66
+msgid "Site: %s"
+msgstr "Gunea: %s"
+
+#: wp-admin/network/site-users.php:278 wp-admin/network/user-new.php:102
+msgid "Add User"
+msgstr "Gehitu erabiltzailea"
+
+#: wp-admin/network/user-new.php:51
+msgid "Cannot add user."
+msgstr "Ezin da gehitu erabiltzailea."
+
+#: wp-admin/network/sites.php:118
+msgid "You are not allowed to delete the site."
+msgstr "Ez daukazu baimenik gune hau ezabatzeko."
+
+#: wp-admin/network/site-users.php:209
+msgid "User is already a member of this site."
+msgstr "Erabiltzailea dagoeneko gune honetako kide da."
+
+#: wp-admin/network/site-info.php:84
+msgid "Site info updated."
+msgstr "Guneko informazioa eguneratu da."
+
+#: wp-admin/network/users.php:38
+msgid "Warning! User %s cannot be deleted."
+msgstr "Kontuz! %s erabiltzailea ezin da ezabatu."
+
+#: wp-admin/network/site-users.php:212
+msgid "Enter the username of an existing user."
+msgstr "Sartu existitzen den erabiltzaile-izen bat."
+
+#: wp-admin/network/themes.php:246
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Ezin duzu itxura bat ezabatu gune nagusian gaituta dagoen bitartean."
+
+#: wp-admin/network/site-new.php:106 wp-admin/network/site-new.php:116
+msgid "Add New Site"
+msgstr "Gehitu gune berria"
+
+#: wp-admin/network/themes.php:242
+msgctxt "network"
+msgid "Theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "Itxura ezabatu da."
+msgstr[1] "%s itxura ezabatu dira."
+
+#: wp-admin/network/themes.php:214
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Sareko itxuren dokumentazioa</a>"
+
+#: wp-admin/network/site-info.php:103 wp-admin/network/site-settings.php:94
+#: wp-admin/network/site-themes.php:146 wp-admin/network/site-users.php:191
+msgid "Info"
+msgstr "Info"
+
+#: wp-admin/network/themes.php:147
+msgid "Are you sure you wish to delete these themes?"
+msgstr "Ziur zaude itxura hauek ezabatu nahi dituzula?"
+
+#: wp-admin/network/themes.php:156
+msgid "Yes, Delete this theme"
+msgid_plural "Yes, Delete these themes"
+msgstr[0] "Bai, itxura hau ezabatu"
+msgstr[1] "Bai, itxura hauek ezabatu"
+
+#: wp-admin/network/themes.php:142
+msgid "You are about to remove the following theme:"
+msgid_plural "You are about to remove the following themes:"
+msgstr[0] "Ondoko itxura kentzear zaude:"
+msgstr[1] "Ondoko itxurak kentzear zaude:"
+
+#: wp-admin/network/themes.php:141
+msgid "This theme may be active on other sites in the network."
+msgid_plural "These themes may be active on other sites in the network."
+msgstr[0] "Itxura hau sareko beste guneetan gaituta egon daiteke."
+msgstr[1] "Itxura hauek sareko beste guneetan gaituta egon daitezke."
+
+#: wp-admin/network/themes.php:139
+msgid "Delete Theme"
+msgid_plural "Delete Themes"
+msgstr[0] "Itxura ezabatu"
+msgstr[1] "Itxurak ezabatu"
+
+#: wp-admin/network/menu.php:46 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "Sarearen ezarpenak"
+
+#: wp-admin/network/site-themes.php:168
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Sarean gaitutako itxurak ez dira pantaila honetan erakusten."
+
+#: wp-admin/network/themes.php:17
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "Ez daukazu baimen nahikorik sareko itxurak kudeatzeko."
+
+#: wp-admin/network/menu.php:58
+msgid "Available Updates"
+msgstr "Eguneraketa eskuragarriak"
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Gehitu Erabiltzailea-k kontu berri bat sortuko du sarean eta pertsona horri e-posta mezu bat bidaliko dio erabiltzaile-izenarekin eta pasahitzarekin."
+
+#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:79
+#: wp-admin/network/site-themes.php:133 wp-admin/network/site-users.php:161
+msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
+msgstr "Editatu gunea: <a href=\"%1$s\">%2$s</a>"
+
+#: wp-admin/network/themes.php:105
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "Ez daukazu baimen nahikorik gune honetan itxurak ezabatzeko."
+
+#: wp-admin/network/site-themes.php:163 wp-admin/network/themes.php:239
+msgid "Theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "Itxura ezgaitu da."
+msgstr[1] "%s itxura ezgaitu dira."
+
+#: wp-admin/network/site-info.php:39 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:54 wp-admin/network/site-users.php:49
+msgid "Invalid site ID."
+msgstr "Gune ID baliogabea."
+
+#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:236
+msgid "Theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "Itxura gaitu da."
+msgstr[1] "%s itxura gaitu dira."
+
+#: wp-admin/network/site-themes.php:165 wp-admin/network/themes.php:244
+msgid "No theme selected."
+msgstr "Ez dago itxurarik aukeratuta."
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> - This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>Itxurak</strong> - Alde honek gaituta ez dauden sareko itxurak erakusten ditu. Menu honetan itxura bat gaituz gero, gune honetan erabilgarri egiten da.  Ez du itxura aktibatzen, baina guneko Itxura menuan agertarazten du. Itxura bat sare osoan gaitzeko, ikus <a href=\"%s\">Sareko itxurak</a> pantaila."
+
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:80
+#: wp-admin/network/site-themes.php:134 wp-admin/network/site-users.php:162
+msgid "Edit Site: %s"
+msgstr "Editatu gunea: %s"
+
+#: wp-admin/network/themes.php:159
+msgid "No, Return me to the theme list"
+msgstr "Ez, itzul nazazu itxuren zerrendara"
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>Ezarpenak</strong> - Orrialde honek gunearekin zerikusia duten ezarpen guztien zerrenda erakusten du. Batzuk WordPress-ek sortuak dira eta beste batzuk aktibatu dituzun plugin-ek sortuak dira. Aipatu grisez bereiztutako eremuak serializatutako datak direla. Ezin dituzu balore hauek aldatu datu-basean gordetzen diren modua dela eta."
+
+#: wp-admin/network/site-themes.php:130 wp-admin/network/themes.php:201
+msgctxt "themes per page (screen options)"
+msgid "Themes"
+msgstr "Itxurak"
+
+#: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>Info</strong> - Domeinua eta bidea oso gutxitan aldatzen dira horrek gunea ondo ez ibiltzea eragin bait dezake. Erregistratutako data eta Azkenekoz Eguneratua data erakusten dira. Sareko administratzaileek gunea artxibatua, zaborra, ezabatua eta helduentzat bezala markatu dezakete, zerrenda publikoetatik ezabatu edo ezgaitzeko."
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>Erabiltzaileak</strong> - Honek gune honi lotutako erabiltzaileak erakusten ditu. Beraien rola aldatu, pasahitza berrezarri edo erabiltzaileak ezabatu ere egin ditzakezu. Erabiltzaile bat gune batetik ezabatuz gero ez da saretik ezabatzen."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "Menua banakako guneei buruzko informazioa editatzeko da, bereziki administrazio eremua eskuragarri ez badago."
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Arbelak, gune horretako Arbelera darama."
+
+#: wp-admin/network/settings.php:145
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "Baimendu gune administratzaileei beraien gunetan erabiltzaileak gehitzea \"Erabiltzaileak &rarr; Gehitu berria\" orrialdearen bitartez."
+
+#: wp-admin/network/settings.php:281
+msgid "Language Settings"
+msgstr "Hizkuntza ezarpenak"
+
+#: wp-admin/network/site-settings.php:75
+msgid "Site options updated."
+msgstr "Guneko aukerak eguneratuak."
+
+#: wp-admin/network/menu.php:31
+msgid "Installed Themes"
+msgstr "Instalatu itxurak"
+
+#: wp-admin/network/menu.php:27
+msgid "Themes %s"
+msgstr "Itxurak %s"
+
+#: wp-admin/network/site-info.php:32 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Gune kudeaketaren dokumentazioa</a>"
+
+#: wp-admin/network/menu.php:18 wp-admin/network/sites.php:254
+msgctxt "site"
+msgid "Add New"
+msgstr "Gehitu berria"
+
+#: wp-admin/network/menu.php:17
+msgid "All Sites"
+msgstr "Gune guztiak"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Sareko administrazioaren dokumentazioa</a>"
+
+#: wp-admin/network/site-themes.php:17
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "Ez daukazu gune honetan itxurak eguneratzeko baimen nahikorik."
+
+#: wp-admin/network/site-new.php:103
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Gunea gehitu da. <a href=\"%1$s\">Arbelera joan</a> ala <a href=\"%2$s\">Gunea editatu</a>"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Gehitu Berria-k, Gehitu Gune Berria pantailara darama. Gunea bilatu dezakezu bere izena, ID zenbakia edo IP helbidearen bitartez. Pantaila Aukerak, orrialde bakarrean zenbat gune batera erakutsi ezartzeko aukera ematen dizu."
+
+#: wp-admin/network/user-new.php:17
+msgid "You do not have sufficient permissions to add users to this network."
+msgstr "Ez daukazu baimen nahikorik gune honetan erabiltzailerik gehitzeko."
+
+#: wp-admin/network/sites.php:25
+msgctxt "sites per page (screen options)"
+msgid "Sites"
+msgstr "Guneak"
+
+#: wp-admin/network/sites.php:206
+msgid "You do not have permission to delete that site."
+msgstr "Ez daukazu baimenik gune hori ezabatzeko."
+
+#: wp-admin/network/site-new.php:17
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "Ez daukazu baimen nahikorik sare honi gunerik gehitzeko."
+
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:228
+msgctxt "theme"
+msgid "Add New"
+msgstr "Gehitu berria"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:243
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Sare-erabiltzailei buruzko dokumentazioa</a>"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "Goiburu lodiak klikatuz taula hau ordenatu dezakezu."
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Ezabatu baieztapen pantailen ondoren beti egiten den ekintza da."
+
+#: wp-admin/network/themes.php:209
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "Sareko administratzaileak itzurak gunetan banan-banan gaitu ditzake Gunea Editatu pantailan (Itxurak fitxa duena); zoaz bertara Gune Guztiak pantailako Editatu estekaren bitartez. Itxurak, sareko administratzaileek bakarrik instalatu eta editatu ditzakete."
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Editatu esteka bat Editatu Gunea pantaila banandu batera."
+
+#: wp-admin/network/site-new.php:23
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "Pantaila hau super administratzaileentzat da, sarera webgune berriak gehitzeko. Honek ez dauka erregistro ezarpenetan eraginik."
+
+#: wp-admin/network/menu.php:53
+msgid "Updates"
+msgstr "Eguneratu"
+
+#: wp-admin/network/settings.php:32
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Super administratzaileak ezin dira gehiago aukeren pantailan gehitu. Orain, existitzen diren erabiltzaileen zerrendara joan, Sareko administratzailea > Erabiltzaileak, eta klik egin erabiltzaile-izenean edo izen horren azpiko Editatu ekintzan. Horrek, Erabiltzailea Editatu orrialdera eramango zaitu eta han kontrol-lauki bat piztu ahal izango duzu erabiltzaileari super administratzaile pribilegioak emateko."
+
+#: wp-admin/network.php:227
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "<code>%1$s/1gunea</code> eta <code>%1$s/2gunea</code> bezala"
+
+#: wp-admin/network.php:240 wp-admin/network.php:244 wp-admin/network.php:284
+msgid "Server Address"
+msgstr "Zerbitzariaren helbidea"
+
+#: wp-admin/network.php:258
+msgid "Because you are using <code>localhost</code>, the sites in your WordPress network must use sub-directories. Consider using <code>localhost.localdomain</code> if you wish to use sub-domains."
+msgstr "<code>localhost</code> erabiltzen ari zarenez, zure WordPress sareko guneek azpidirektorioak erabili behar dituzte. Kontuan izan <code>localhost.localdomain</code> erabiltzea azpidomeinuak erabili nahi badituzu. "
+
+#: wp-admin/network.php:261 wp-admin/network.php:271 wp-admin/network.php:278
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "Azpidirektorio instalazio bateko gune nagusiak aldaturiko esteka iraunkor bat erabili beharko du, lehenagoko loturak hautsiz."
+
+#: wp-admin/network.php:268
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "Zure instalazioa direktorio batean dagoenez, zure Wordpress sareko guneak azpidirektorioak erabili beharra dauzka."
+
+#: wp-admin/network.php:276
+msgid "Sub-domain Install"
+msgstr "Azpidomeinuaren instalazioa"
+
+#: wp-admin/network.php:277
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "Zure instalazioa ez denez berria, zure Wordpress sareko guneak azpidomeinuak erabili beharra dauzka."
+
+#: wp-admin/network/settings.php:93 wp-admin/network.php:291
+msgid "Network Title"
+msgstr "Sarearen izenburua"
+
+#: wp-admin/network.php:295
+msgid "What would you like to call your network?"
+msgstr "Ze izen eman nahi diozu zure sareari?"
+
+#: wp-admin/network.php:304
+msgid "Your email address."
+msgstr "Zure e-posta helbidea."
+
+#: wp-admin/network.php:351
+msgid "The original configuration steps are shown here for reference."
+msgstr "Jatorrizko konfigurazioko pausoak ikus daitezke hemen, erreferentzia gisa."
+
+#: wp-admin/network.php:356
+msgid "An existing WordPress network was detected."
+msgstr "Badagoen WordPress sare bat atzeman da."
+
+#: wp-admin/network.php:357
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "Mesedez, bete konfigurazioko pausoak. Sare berri bat sortzeko, sareko datu-baseko taulak hustu edo mugitu beharko dituzu."
+
+#: wp-admin/network.php:368
+msgid "Enabling the Network"
+msgstr "Sarea gaitzea"
+
+#: wp-admin/network.php:369
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Bete hurrengo pauso hauek eginbideak aktibatu eta guneen sare bat sortzeko."
+
+#: wp-admin/network.php:372 wp-admin/network.php:374
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files."
+msgstr "<strong>Kontuz:</strong> Zure <code>wp-config.php</code> eta <code>%s</code> fitxategien segurtasun kopia egitea biziki gomendatzen dizugu."
+
+#: wp-admin/network.php:376
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file."
+msgstr "<strong>Kontuz:</strong> Gomendatzen dizugu zure <code>wp-config.php</code> fitxategiaren segurtasun kopia bat egitea."
+
+#: wp-admin/network.php:382
+msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "Txertatu ondokoa <code>%s</code> direktorioan dagoen zure <code>wp-config.php</code> fitxategiari, <code>/* Kitto. Ez ikutu ezer hemendik aurrera. */</code> jartzen duen lerroaren <strong>gainean</strong>:"
+
+#: wp-admin/network.php:196
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "Bete beheko informazioa, eta bidea izango duzu zure WordPress-eko guneetako sare bat sortzeko. Guk konfigurazio fitxategiak sortuko ditugu hurrengo pausoan."
+
+#: wp-admin/network.php:208
+msgid "Note:"
+msgstr "Oharra:"
+
+#: wp-admin/network.php:208
+msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
+msgstr "Mesedez, ziurtatu Apache <code>mod_rewrite</code> modulua instalatuta dagoela instalazio honen amaieran erabiliko den moduan."
+
+#: wp-admin/network.php:413
+msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
+msgid_plural "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
+msgstr[0] "Egiaztatze-gako bakar hau zure <code>wp-config.php</code> fitxategian ere falta da."
+msgstr[1] "Egiaztatze-gako bakar hauek zure <code>wp-config.php</code> fitxategian ere falta dira."
+
+#: wp-admin/network.php:171
+msgid "You cannot install a network of sites with your server address."
+msgstr "Ezin duzu guneen sarerik instalatu zure zerbitzari helbidearekin."
+
+#: wp-admin/network.php:172
+msgid "You cannot use port numbers such as <code>%s</code>."
+msgstr "Ezin dituzu <code>%s</code> bezalako ataka-zenbakiak erabili."
+
+#: wp-admin/network.php:218
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "DNS dokumentu komodin bat beharko duzu ostalari (azpidomeinua) funtzionalitate birtuala erabili behar baduzu."
+
+#: wp-admin/network.php:212
+msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
+msgstr "<code>mod_rewrite</code> desaktibatu egin bada, galdetu zure administratzaileari modulu hori aktibatzeko, edo begiratu <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a>-(e)n edo <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a>-(e)n, konfiguratzen laguntzeko."
+
+#: wp-admin/network.php:192
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "%s guneak"
+
+#: wp-admin/network.php:246 wp-admin/network.php:286
+msgid "The internet address of your network will be <code>%s</code>."
+msgstr "Zure sareko Interneteko helbidea <code>%s</code> izango da."
+
+#: wp-admin/network.php:210 wp-admin/network.php:235 wp-admin/network.php:261
+#: wp-admin/network.php:271
+msgid "Warning!"
+msgstr "Abisua!"
+
+#: wp-admin/network.php:222
+msgid "Sub-domains"
+msgstr "Azpidomeinuak"
+
+#: wp-admin/network.php:413
+msgid "To make your installation more secure, you should also add:"
+msgstr "Seguruago instalatzeko, honako hau ere gehitu beharko zenuke:"
+
+#: wp-admin/network.php:114
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "Aukeratu azpidomeinuak edo azpidirektorioak; gerora, zure instalazioa berriz konfiguratuz gero bakarrik aldatu ahal izango da hori. Bete sareko xehetasunak, eta egin klik instalatu botoian. Ez badabil, DNS komodin-sarrera gehitu beharko duzu (azpidomeinuentzat) edo esteka iraunkorren beste ezarpen batera aldatu beharko duzu (azpidirektorioentzat)."
+
+#: wp-admin/network.php:115
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Sareko doiketako hurrengo pantailak banaka sorturiko kode-lineak emango dizkizu, zure wp-config.php eta .htaccess fitxategiei gehitzeko. Zaude ziur zure FTP bezeroaren ezarpenen bidez, puntu ikuserraz batekin hasten direla fitxategien izenak, horrela, .htaccess aurkitu ahal izango duzu; agian fitxategi hori sortu beharko duzu benetan hortxe ez balego. Egin bi fitxategi horien babeskopiak."
+
+#: wp-admin/network.php:523
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Pauso hauek bete eta gero, zure sarea aktibatu eta konfiguratuko da. Berriz hasi beharko duzu saioa."
+
+#: wp-admin/network.php:154
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "DO_NOT_UPGRADE_GLOBAL_TABLES konstantea ezin da zehaztu sare bat sortzean."
+
+#: wp-admin/network.php:252
+msgid "Network Details"
+msgstr "Sarearen xehetasunak"
+
+#: wp-admin/network.php:195
+msgid "Welcome to the Network installation process!"
+msgstr "Ongi etorri sarea instalatzeko prozesura!"
+
+#: wp-admin/network.php:210
+msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
+msgstr "Badirudi Apache <code>mod_rewrite</code> modulua ez dagoela instalatuta."
+
+#: wp-admin/network.php:120 wp-admin/network.php:131
+msgid "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Sare bat sortzeko dokumentazioa</a>"
+
+#: wp-admin/network.php:118
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Azpidirektorio guneen aukera desgaiturik dago baldin eta konfigurazioak hilabete bat baino zaharragoa. Zergatia esteka iraunkorren problemak &#8220;/blog/&#8221 blogarekin;  gune nagusiarekin. Desgaitze hori aurreragoko bertsio berriago batean helbideratuko da."
+
+#: wp-admin/network.php:162
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Behin sarea sortuta, berriz aktibatu ahal izango dituzu zure konexioak."
+
+#: wp-admin/network.php:162
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "Mesedez, <a href=\"%s\"> desaktibatu zure konexioak</a> Sareko eginbidea aktibatu aurretik."
+
+#: wp-admin/network.php:241
+msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the <code>www</code> prefix with an address like <code>%2$s</code> but any links will not have the <code>www</code> prefix."
+msgstr "Zure guneko URLa aldatu eta <code>%1$s</code> jartzea gomendatzen dizugu sarearene zaugarriak aktibatu aurretik. Hala ere, posible izango da zure gunera joatea <code>www</code> aurrezenbakia erabiliz, <code>%2$s</code> helbide batekin; baina edozein loturak ez du izango <code>www</code> aurrezenbakia."
+
+#: wp-admin/network.php:256 wp-admin/network.php:266
+msgid "Sub-directory Install"
+msgstr "Azpidirektorioaren instalazioa"
+
+#: wp-admin/network.php:113
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "Pantaila honek sare bat konfiguratzen uzten dizu, azpidomeinuak (<code>site1.example.com</code>) eta azpidirektorioak (<code>example.com/site1</code>) edukiz. Azpidomeinuek zernahitarako azpidomeinuak ematen dituzte, Apache eta DNS dokumentuetan aktibatzeko, zure ostalariak baimentzen badu, noski. "
+
+#: wp-admin/network.php:109
+msgid "Create a Network of WordPress Sites"
+msgstr "Sortu WordPress guneen sarea"
+
+#: wp-admin/network.php:173
+msgid "Return to Dashboard"
+msgstr "Itzuli arbelera"
+
+#: wp-admin/network.php:27
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Sarea sortzeko panela ez da WordPress MU sareetarako."
+
+#: wp-admin/network.php:162 wp-admin/network.php:356 wp-admin/network.php:478
+#: wp-admin/network.php:514
+msgid "Warning:"
+msgstr "Abisua:"
+
+#: wp-admin/network.php:217
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
+msgstr "Mesedez, aukeratu gustatuko al litzaizukeen zure WordPress sarean guneak edukitzea azpidomeinuak edo azpidirektorioak erabiltzeko. <strong>Gerora ezingo zenuke aldatu.</strong>"
+
+#: wp-admin/network.php:121 wp-admin/network.php:132
+msgid "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Sare-pantailaren dokumentazioa</a>"
+
+#: wp-admin/network.php:216
+msgid "Addresses of Sites in your Network"
+msgstr "Guneen helibideak zure sarean"
+
+#: wp-admin/network.php:223
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "<code>1gunea.%1$s</code> eta <code>2gunea.%1$s</code> bezala"
+
+#: wp-admin/network.php:125
+msgid "Network"
+msgstr "Sarea"
+
+#: wp-admin/network.php:226
+msgid "Sub-directories"
+msgstr "Azpidirektorioak"
+
+#: wp-admin/network.php:103
+msgid "You must define the <code>WP_ALLOW_MULTISITE</code> constant as true in your wp-config.php file to allow creation of a Network."
+msgstr "Egiazko gisa zehaztu beharra daukazu <code>WP_ALLOW_MULTISITE</code> konstantea, zure wp-config.php fitxategian, sare bat sortzea baimentzeko."
+
+#: wp-admin/network.php:185
+msgid "ERROR: The network could not be created."
+msgstr "ERROREA: Sarea ezin izan da sortu."
+
+#: wp-admin/network.php:117
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Behin kode hau gehituta eta zure arakatzailea freskatuz gero, gune anitzeko aukera gaiturik egon beharko luke. Pantaila honek, orain, Sareko Administratzailearen nabigazio-menuan, gehitutako kodearen artxiboa gordeko du. Txandakatu ahal izango duzu Sareko Administratzaile eta Guneko Administratzailearen artean baldin eta Sareko Admin-en klik egiten baduzu edo Tresna-barrako Nire Guneak zerrendako gune-izen baten gainean klik egiten baduzu."
+
+#: wp-admin/network/site-info.php:17 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "Ez daukazu baimen nahikorik gune hau editatzeko."
+
+#: wp-admin/network/users.php:143
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Kontuz! Erabiltzailea ezin da aldatu. %s erabiltzailea sareko administratzailea da."
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Datu-basean ez badago gune berrirako administratzailearen e-postarik, erabiltzaile berri bat sortuko da."
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Desaktibatu, Artxibatu eta Zaborrak, baieztapen pantailetara daramate. Ekintza horiek gero atzera bota daitezke."
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "Guneko IDa barnean erabiltzen da, eta ez da erakusten guneko lehen orrian ez eta erabiltzaile/ikusleei ere."
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Gune bakoitzean nabarmentzeak zazpi aukera ematen ditu (hiru gune nagusirako): "
+
+#: wp-admin/network/settings.php:27
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Ezarpenek badituzte sareko izenarentzako eta administratzailearen e-postarentzako eremuak."
+
+#: wp-admin/network/users.php:235
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Erabiltzailearen profilaren orrira joan zaitezke erabiltzaile indibidualaren izenean klik eginez ere. "
+
+#: wp-admin/network/users.php:237
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "Multzokako ekintza batek hautaturiko erabiltzaileak betirako ezabatuko ditu, edo markatu/desmarkatu zabor gisa hautaturiko horiek. Zabor-erabiltzaileen bidalketak ezabatuko dira eta ezin izango dute berriro erregistratu e-posta berdinarekin. "
+
+#: wp-admin/network/settings.php:30
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "Kargatutako ezarpenek kargatutako artxiboen neurria kontrolatzen dute, bai eta gune bakoitzean kargatzeko dagoen espazio kopurua ere. Gune espezifikoetarako lehenetsitako balioak alda ditzakezu gune partikular bat editzatzen duzunean. Baimendutako artxibo motak ere zerrendan daude (tarteekin bereizita bakarrik)."
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the frontend site live."
+msgstr "Joan guneko aurreko aldera zuzenean."
+
+#: wp-admin/network/settings.php:29
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "Guneko ezarpen berriak lehenespen moduan eskatzen dira sarean gune berri bat sortzen denean. Horrekin batera, ongietorri mezu bat bidaltzen da gune edo erabiltzaile kontu bat erregistratzen denean, eta lehen sarreran, orrian, iruzkinean, egilearen iruzkinean eta URLaren iruzkinean jartzen da."
+
+#: wp-admin/network/themes.php:207
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "Pantaila honek aktibatu eta desaktibatu egiten ditu gune bakoitzeko 'Itxura' menuan aukeratu daitezkeen gaien barne hartzea. Ez du aktibatu edo desaktibatzen gune bat zein gai ari den erabiltzen."
+
+#: wp-admin/network/themes.php:208
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Sareko administratzaileak desaktibatu egiten badu erabiltzen den gai bat, gune horretan aukeratuta manten daiteke. Beste gai bat aukeratzen bada, desaktibatutako gaia ez da agertuko &#8217;s guneko Argitaratzea > Gaiak pantailan. "
+
+#: wp-admin/network/settings.php:26
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "Sarerako pantailako ezarpen eta aldaketa hauek oso-osorik. Lehenengo gunea sareko gune nagusia da, eta sareko aukerak &#8217;s gune original horretako aukeretatik atera dira."
+
+#: wp-admin/network/settings.php:28
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "Erregistratzeko ezarpenek izen-emate publikoak desaktiba/aktiba ditzakete. Beste batzuei uzten badiezu gune batean izena ematen, instalatu spam konexioak. Tarteek —ez komek— sare honetarako gune gisa debekatutako izenak bereizi beharko lituzkete."
+
+#: wp-admin/network/settings.php:31
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "Menuko ezarpenak aktibatzen/desaktibatzen ditu konexio menuak super administratzaileak ez direnentzat; hartara, super administratzaileek bakarrik —ez guneko administratzaileek— izango dute sarbidea konexioetarako."
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "Sare honetako gune guztien taula nagusia da hau. Zerrenda eta laburpenen ikuspegiak aldatu taulako goiko eskuineko ikonoak erabiliz. "
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Sarean gunerik gabe erregistratuta dauden erabiltzaileak harpidedun gisa ageriko dira aginte-pantaila gune nagusian, eta profil orriak emango zaizkie euren kontuak kudea ditzaten. Erabiltzaile horiek 'Aginte-panela' eta 'Nire guneak' bakarrik ikusiko dute nabigazio nagusian, eurentzat gune bat sortzen den arte. "
+
+#: wp-admin/network/users.php:236
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr "Taula sailka dezakezu letra lodiz markaturiko edozein izenbururen gainean klik eginez, eta zerrenda eta laburpenen ikuspegiak aldatu goiko eskuineko ikonoak erabiliz. "
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Prozesu honek zerbaitengatik huts egiten badu, euren guneetan saioa hasita daukaten erabiltzaileek eguneraketa berdina bultzatuko dute."
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Nukleorako bertsioaren eguneraketarik izan ez bada, botoi honetan klik eginez ez dio ezeri eragingo. "
+
+#: wp-admin/network/users.php:233
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Taula honek izena emana duten sare eta guneetako erabiltzaileak erakusten ditu."
+
+#: wp-admin/network/users.php:238
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Dagoeneko erabiltzaile den bati super administratzaile gehigarri bat egin diezaiokezu, 'Editatu erabiltzailea' profil-orrira joanez eta kontrol-laukia piztuz, abantaila hori emateko."
+
+#: wp-admin/network/site-new.php:49
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "Hurrengo hitzak WordPress-eko funtzioetarako bakarrik erabil daitezke, eta ezin dira blog-izen gisa erabili: <code>%s</code>"
+
+#: wp-admin/network/upgrade.php:69
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
+msgstr "Kontuz! Arazoak izan dira %1$s eguneratzean. Baliteke zure zerbitzaria gai ez izatea bertan exekutatzen ari diren guneekin konektatzeko. Errorearen mezua: <em>%2$s</em>"
+
+#: wp-admin/network/settings.php:167
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Guneen erregistroa domeinu jakinetara mugatu nahi baduzu. Domeinu bat lerroko."
+
+#: wp-admin/network/settings.php:178
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Domeinuak guneen erregistrotik debekatu nahi badituzu. Domeinu bat lerroko."
+
+#: wp-admin/network/settings.php:125
+msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Erregistroa desgaituta badago, bisitariek ez dagoen gune bat bisitatzean berbideratuko diren URLa ezar ezazu <code>wp-config.php</code> fitxategiko <code>NOBLOGREDIRECT</code> aldagaian."
+
+#: wp-admin/network/site-new.php:37
+msgid "Can&#8217;t create an empty site."
+msgstr "Ezin da gune hutsa sortu."
+
+#: wp-admin/network/upgrade.php:88
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Zure nabigatzaileak ez badu hurrengo orria automatikoki kargatzen, egin klik ondorengo estekan:"
+
+#: wp-admin/network/sites.php:224
+msgid "Site marked as spam."
+msgstr "Gunea zabor gisa markatu da."
+
+#: wp-admin/network/sites.php:197
+msgid "Sites marked as spam."
+msgstr "Zabor gisa markatutako guneak."
+
+#: wp-admin/network/sites.php:194
+msgid "Sites removed from spam."
+msgstr "Zaborretik kendutako guneak."
+
+#: wp-admin/network/users.php:261
+msgid "Users removed from spam."
+msgstr "Zabor izatetik kendutako erabiltzaileak."
+
+#: wp-admin/network/sites.php:221
+msgid "Site removed from spam."
+msgstr "Gunea zaborretik kendu da."
+
+#: wp-admin/network/sites.php:200
+msgid "Sites deleted."
+msgstr "Guneak ezabatu dira."
+
+#: wp-admin/network/sites.php:203
+msgid "Site deleted."
+msgstr "Gunea ezabatu da."
+
+#: wp-admin/network/users.php:258
+msgid "Users marked as spam."
+msgstr "Zabor gisa markatutako erabiltzaileak."
+
+#: wp-admin/network/site-info.php:142
+msgid "Update <code>siteurl</code> and <code>home</code> as well."
+msgstr "Eguneratu gainera <code>siteurl</code> eta <code>home</code>."
+
+#: wp-admin/network/sites.php:218
+msgid "Site deactivated."
+msgstr "Gunea desgaitu da."
+
+#: wp-admin/network/sites.php:215
+msgid "Site activated."
+msgstr "Gunea gaitu da."
+
+#: wp-admin/network/sites.php:212
+msgid "Site unarchived."
+msgstr "Gunea artxibotik kendu da."
+
+#: wp-admin/network/users.php:264
+msgid "Users deleted."
+msgstr "Erabiltzaileak ezabatu dira."
+
+#: wp-admin/network/sites.php:209
+msgid "Site archived."
+msgstr "Gunea artxibatu da."
+
+#: wp-admin/network/site-new.php:60
+msgid "Invalid email address."
+msgstr "E-posta ez da baliozkoa."
+
+#: wp-admin/network/site-new.php:76
+msgid "There was an error creating the user."
+msgstr "Errorea gertatu da erabiltzailea sortzean."
+
+#: wp-admin/network/sites.php:64 wp-admin/network/sites.php:131
+msgid "You are not allowed to change the current site."
+msgstr "Ez duzu uneko gunea aldatzeko baimenik."
+
+#: wp-admin/network/settings.php:272
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/settings.php:266
+msgid "Upload file types"
+msgstr "Igotzeko fitxategi motak"
+
+#: wp-admin/network/settings.php:261
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Limitatu igotako fitxategien tamaina maximoa %s MBra"
+
+#: wp-admin/network/settings.php:242
+msgid "The author of the first comment on a new site."
+msgstr "Gune berri bateko lehen iruzkinaren egilea."
+
+#: wp-admin/network/settings.php:213
+msgid "The first post on a new site."
+msgstr "Gune berri bateko lehen bidalketa."
+
+#: wp-admin/network/settings.php:223
+msgid "The first page on a new site."
+msgstr "Gune berri bateko lehen orrialdea."
+
+#: wp-admin/network/settings.php:233
+msgid "The first comment on a new site."
+msgstr "Gune berri bateko lehen iruzkina."
+
+#: wp-admin/network/settings.php:251
+msgid "The URL for the first comment on a new site."
+msgstr "Gune berri bateko lehen iruzkinaren URLa."
+
+#: wp-admin/network/upgrade.php:57
+msgid "All done!"
+msgstr "Dena eginda!"
+
+#: wp-admin/network/settings.php:121
+msgid "Logged in users may register new sites."
+msgstr "Saioa hasi duten erabiltzaileek gune berriak erregistra ditzakete."
+
+#: wp-admin/network/settings.php:122
+msgid "Both sites and user accounts can be registered."
+msgstr "Guneak eta erabiltzaile-kontuak erregistra daitezke."
+
+#: wp-admin/network/settings.php:120
+msgid "User accounts may be registered."
+msgstr "Erabiltzaile-kontuak erregistra daitezke."
+
+#: wp-admin/network/settings.php:119
+msgid "Registration is disabled."
+msgstr "Erregistroa desgaituta dago."
+
+#: wp-admin/network/settings.php:299
+msgid "Enable administration menus"
+msgstr "Gaitu administrazio-menuak"
+
+#: wp-admin/network/settings.php:90
+msgid "Operational Settings"
+msgstr "Jarduneko ezarpenak"
+
+#: wp-admin/network/settings.php:256
+msgid "Upload Settings"
+msgstr "Igotzeko ezarpenak"
+
+#: wp-admin/network/settings.php:184
+msgid "New Site Settings"
+msgstr "Gune berriaren ezarpenak"
+
+#: wp-admin/network/settings.php:109
+msgid "Registration Settings"
+msgstr "Erregistro-ezarpenak"
+
+#: wp-admin/network/site-new.php:56
+msgid "Missing or invalid site address."
+msgstr "Gunearen helbidea falta da edo baliogabea da."
+
+#: wp-admin/network/site-new.php:58
+msgid "Missing email address."
+msgstr "E-posta falta da."
+
+#: wp-admin/network/settings.php:100 wp-admin/network.php:300
+msgid "Network Admin Email"
+msgstr "Sareko administratzailearen e-posta"
+
+#: wp-admin/network/site-new.php:91
+msgid "[%s] New Site Created"
+msgstr "[%s] Gune berria sortu da"
+
+#: wp-admin/network/settings.php:193
+msgid "The welcome email sent to new site owners."
+msgstr "Gune berrien jabeei bidaltzen zaien ongietorri e-posta."
+
+#: wp-admin/network/settings.php:259
+msgid "Site upload space"
+msgstr "Gunearen igotzeko tokia"
+
+#: wp-admin/network/settings.php:138
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "Bidali sareko administratzaileri posta-jakinarazpena norbaitek gune bat edo erabiltzaile-kontu bat erregistratzean."
+
+#: wp-admin/network/settings.php:154
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Erabiltzaileek ez daukate gune hauek erregistratzeko baimenik. Banandu izenak zuriunez."
+
+#: wp-admin/network/upgrade.php:88
+msgid "Next Sites"
+msgstr "Hurrengo guneak"
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:17
+#: wp-admin/network/site-info.php:43 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:53
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:100
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:36
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:94
+#: wp-admin/network/users.php:116 wp-admin/network/users.php:129
+#: wp-admin/network/users.php:180
+msgid "You do not have permission to access this page."
+msgstr "Ez daukazu orrialde hau atzitzeko baimenik."
+
+#: wp-admin/network/sites.php:77
+msgid "Confirm"
+msgstr "Berretsi"
+
+#: wp-admin/network/user-new.php:39
+msgid "Cannot create an empty user."
+msgstr "Ezin da erabiltzaile hutsa sortu."
+
+#: wp-admin/network/site-users.php:233
+msgid "Duplicated username or email address."
+msgstr "Erabiltzaile-izena edo e-posta bikoiztuak."
+
+#: wp-admin/network/settings.php:112
+msgid "Allow new registrations"
+msgstr "Baimendu erregistro berriak"
+
+#: wp-admin/network/settings.php:132
+msgid "Registration notification"
+msgstr "Erregistroaren jakinarazpena"
+
+#: wp-admin/network/settings.php:143
+msgid "Add New Users"
+msgstr "Gehitu erabiltzaile berriak"
+
+#: wp-admin/network/settings.php:150
+msgid "Banned Names"
+msgstr "Debekatutako izenak"
+
+#: wp-admin/network/settings.php:160
+msgid "Limited Email Registrations"
+msgstr "E-posta erregistroak mugatuak"
+
+#: wp-admin/network/settings.php:173
+msgid "Banned Email Domains"
+msgstr "Debekatutako e-posta domeinuak"
+
+#: wp-admin/network/settings.php:188
+msgid "Welcome Email"
+msgstr "Ongietorri e-posta"
+
+#: wp-admin/network/settings.php:198
+msgid "Welcome User Email"
+msgstr "Erabiltzaileen ongietorri e-posta"
+
+#: wp-admin/network/settings.php:203
+msgid "The welcome email sent to new users."
+msgstr "Erabiltzaile berriei bidaltzen zaien ongietorri e-posta."
+
+#: wp-admin/network/settings.php:218
+msgid "First Page"
+msgstr "Lehen orrialdea"
+
+#: wp-admin/network/settings.php:228
+msgid "First Comment"
+msgstr "Lehen iruzkina"
+
+#: wp-admin/network/settings.php:238
+msgid "First Comment Author"
+msgstr "Lehen iruzkinaren egilea"
+
+#: wp-admin/network/settings.php:247
+msgid "First Comment URL"
+msgstr "Lehen iruzkinaren URLa"
+
+#: wp-admin/network/settings.php:271
+msgid "Max upload file size"
+msgstr "Igotzeko fitxategiaren tamaina maximoa"
+
+#: wp-admin/network/settings.php:284
+msgid "Default Language"
+msgstr "Hizkuntza lehenetsia"
+
+#: wp-admin/network/site-new.php:149
+msgid "Add Site"
+msgstr "Gehitu gunea"
+
+#: wp-admin/network/site-new.php:126
+msgid "Site Address"
+msgstr "Gunearen helbidea"
+
+#: wp-admin/network/site-new.php:142
+msgid "Admin Email"
+msgstr "Administratzailearen e-posta"
+
+#: wp-admin/network/site-new.php:146
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Erabiltzaile berria sortuko da goiko e-posta datu-basean ez badago."
+
+#: wp-admin/network/site-new.php:146
+msgid "The username and password will be mailed to this email address."
+msgstr "Erabiltzaile-izen eta pasahitza e-posta honetara bidaliko dira."
+
+#: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:98
+msgid "Username and password will be mailed to the above email address."
+msgstr "Erabiltzaile-izen eta pasahitza goiko e-postara bidaliko dira."
